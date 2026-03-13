@@ -111,8 +111,8 @@ Bug Busters is a technical debugging competition conducted as part of Pixel 2K26
 🚀 Join Bug Busters and showcase your debugging skills!`,
     ],
     coordinators: [
-      "KR Harsha Vardhan - 7842711462",
-      "C Shama Afreen - 9045620202",
+      "Sree Sai - 8142017489",
+      "B Harikha - 8688021066",
     ],
     icon: "🐛",
     registration: {
@@ -125,6 +125,8 @@ Bug Busters is a technical debugging competition conducted as part of Pixel 2K26
       formLink: "https://docs.google.com/forms/d/e/1FAIpQLSeY5XMVgVY-h7K1plqc_hPw2JmEG7eR9EvugmuFM9xPIcbvcg/viewform",
     },
   },
+
+  ///////// Technical Quiz //////////
   {
     id: "technical-quiz",
     title: "CODE QUEST - (Technical quiz)",
@@ -153,6 +155,8 @@ Bug Busters is a technical debugging competition conducted as part of Pixel 2K26
       formLink: "https://docs.google.com/forms/d/e/1FAIpQLScnhju2AgGCbMW5AuHOWec-v-3U21zOkmq16eO3zaGui6DiCw/viewform",
     },
   },
+
+  ///////// Hackathon //////////
   {
     id: "hackathon",
     title: "Hackverse",
@@ -193,8 +197,8 @@ Entry Fee: ₹499 per team`,
 This hackathon provides a great opportunity for developers to showcase their creativity, problem-solving skills, and teamwork while building innovative web solutions in a competitive and engaging environment.`
     ],
     coordinators: [
-      "KR Harsha Vardhan - 7842711462",
-      "C Shama Afreen - 9045620202",
+      "J Neharika - 7893153725",
+      "S Sathwik - 9014941863",
     ],
     icon: "💻",
     registration: {
@@ -209,9 +213,11 @@ This hackathon provides a great opportunity for developers to showcase their cre
       formLink: "https://forms.gle/placeholder-hackathon",
     },
   },
+
+    ///// Time-Limited Coding /////
   {
     id: "time-limited-coding",
-    title: "Time-Limited Coding",
+    title: "CodeRush – Time-limited coding competition",
     slug: "time-limited-coding",
     category: "technical",
     description: "Competitive programming challenge with time constraints. Solve algorithmic problems of varying difficulty in the shortest time. Speed and accuracy both matter!",
@@ -239,6 +245,8 @@ This hackathon provides a great opportunity for developers to showcase their cre
       formLink: "https://forms.gle/placeholder-time-limited-coding",
     },
   },
+
+    ///// SQL Query Cracking /////
   {
     id: "sql-query-cracking",
     title: "SQL Query Cracking",
@@ -274,7 +282,7 @@ This hackathon provides a great opportunity for developers to showcase their cre
   ///// Free Fire Tournament /////
   {
     id: "free-fire",
-    title: "Free Fire Tournament",
+    title: "Pixel Warzone - Free Fire Tournament",
     slug: "free-fire",
     category: "non-technical",
     description: "Battle it out in the ultimate Free Fire showdown! Squad-based tournament with multiple rounds. Show your gaming skills and strategy to win exciting prizes.",
@@ -310,8 +318,8 @@ Prize pool may increase if more teams register.`,
 Register now and aim for the BOOYAH!`,
     ],
     coordinators: [
-      "KR Harsha Vardhan - 7842711462",
-      "C Shama Afreen - 9045620202",
+      "S Apsar - 9959791329",
+      "N Karthik - 9014088846",
     ],
     icon: "🔥",
     registration: {
@@ -371,7 +379,7 @@ Register now and aim for the BOOYAH!`,
   ///// Non-Tech Quiz //////
   {
     id: "non-tech-quiz",
-    title: "Non-Tech Quiz",
+    title: "Brain Buzzer - (Non-Tech Quiz)",
     slug: "non-tech-quiz",
     category: "non-technical",
     description: "General knowledge quiz covering current affairs, sports, entertainment, history, geography, and pop culture. Fun and intellectually stimulating!",
@@ -380,8 +388,8 @@ Register now and aim for the BOOYAH!`,
     venue: "CSE Department, JNTUA College of Engineering Anantapur",
     prize: `🥇 1st Prize: ₹700 |🥈 2nd Prize: ₹500 | Certificate is awarded`,
     coordinators: [
-      "KR Harsha Vardhan - 7842711462",
-      "C Shama Afreen - 9045620202",
+      "G Keerthi - 8019664332",
+      "R Ashok Kumar Naik - 9553203303",
     ],
     rules: [
       "💰 Entry Fee: ₹200",
@@ -596,8 +604,8 @@ Get ready to create, capture, and inspire! ✨`,
       "Emulators and triggers not allowed",
     ],
     coordinators: [
-      "KR Harsha Vardhan - 7842711462",
-      "C Shama Afreen - 9045620202",
+      "Rakesh - 9014142283",
+      "Rana Sadiq - 939854848",
     ],
     icon: "🎮",
     registration: {
