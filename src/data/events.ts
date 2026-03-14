@@ -1,19 +1,42 @@
+import type { IconType } from "react-icons";
+import {
+  FaBrain,
+  FaBug,
+  FaCamera,
+  FaChessKnight,
+  FaCircleInfo,
+  FaCircleQuestion,
+  FaFaceLaughBeam,
+  FaFileLines,
+  FaFire,
+  FaGamepad,
+  FaGavel,
+  FaKeyboard,
+  FaLaptopCode,
+  FaListCheck,
+  FaShieldHalved,
+  FaStopwatch,
+  FaTriangleExclamation,
+  FaVideo,
+  FaWandMagicSparkles,
+} from "react-icons/fa6";
+
 // To use a per-event QR: add the image to src/assets/, import it here,
 // and assign it to that event's registration.qr field.
-import qrPaperPresentation from "@/assets/Mythresh-payment-qr.jpeg";  //1
-import qrCodeDebugging from "@/assets/Mythresh-payment-qr.jpeg";  //2
-import qrFastFingers from "@/assets/Vaibhav-payment-qr.jpeg";  //3
-import qrTechnicalQuiz from "@/assets/Mythresh-payment-qr.jpeg";  //4
-import qrHackathon from "@/assets/Chethan-payment-qr.jpeg";  //5
-import qrTimeLimitedCoding from "@/assets/Chethan-payment-qr.jpeg";  //6
-import qrPromtEvent from "@/assets/Vaibhav-payment-qr.jpeg";  //7
-import qrFreeFire from "@/assets/Chethan-payment-qr.jpeg";  //8
-import qrPhotography from "@/assets/Hrishi-payment-qr.jpeg";  //9
-import qrNonTechQuiz from "@/assets/Harsha-payment-qr.jpeg";  //10
-import qrMemeCompetition from "@/assets/Hrishi-payment-qr.jpeg"; //11
-import qrChess from "@/assets/Harsha-payment-qr.jpeg"; //12
-import qrReelCompetition from "@/assets/Hrishi-payment-qr.jpeg"; //13
-import qrBgmi from "@/assets/Harsha-payment-qr.jpeg"; //14
+import qrPaperPresentation from "@/assets/Mythresh-payment-qr.jpeg";
+import qrCodeDebugging from "@/assets/Mythresh-payment-qr.jpeg";
+import qrFastFingers from "@/assets/Vaibhav-payment-qr.jpeg";
+import qrTechnicalQuiz from "@/assets/Mythresh-payment-qr.jpeg";
+import qrHackathon from "@/assets/Chethan-payment-qr.jpeg";
+import qrTimeLimitedCoding from "@/assets/Chethan-payment-qr.jpeg";
+import qrPromtEvent from "@/assets/Vaibhav-payment-qr.jpeg";
+import qrFreeFire from "@/assets/Chethan-payment-qr.jpeg";
+import qrPhotography from "@/assets/Hrishi-payment-qr.jpeg";
+import qrNonTechQuiz from "@/assets/Harsha-payment-qr.jpeg";
+import qrMemeCompetition from "@/assets/Hrishi-payment-qr.jpeg";
+import qrChess from "@/assets/Harsha-payment-qr.jpeg";
+import qrReelCompetition from "@/assets/Hrishi-payment-qr.jpeg";
+import qrBgmi from "@/assets/Harsha-payment-qr.jpeg";
 
 export interface EventRegistration {
   qr: string;
@@ -32,19 +55,19 @@ export interface EventData {
   venue: string;
   prize: string;
   rules: string[];
-  icon: string;
+  icon: IconType;
+  ruleIcon: IconType;
   coordinators?: string[];
   registration: EventRegistration;
 }
 
-export const events: EventData[] = [
-
+const rawEvents: EventData[] = [
   ///////////////Technical Events////////////////
 
-   ///// Paper Presentation /////
+  ///// Paper Presentation /////
   {
     id: "paper-presentation",
-    title: "Paper Presentation",
+    title: "TechSpark - (Paper Presentation)",
     slug: "paper-presentation",
     category: "technical",
     description:
@@ -52,26 +75,49 @@ export const events: EventData[] = [
     date: "March 20, 2026",
     time: "10:00 AM - 1:00 PM",
     venue: "Computer Science Department, JNTUACEA Campus",
-    prize: "₹xxxxx",
+    prize: "winners: ₹1700 | Runners: ₹800",
     rules: [
-      "Team of 2-3 members allowed",
-      "Presentation time: 10 minutes + 5 minutes Q&A",
-      "PPT must be submitted 2 days before the event",
-      "Topics must be related to current technology trends",
-      "Plagiarism will lead to disqualification",
+      ` TechSpark 2026:
+ Present your innovative ideas and showcase your technical knowledge!`,
+      ` Pre-Register: 21th March 2026,Spot registrations are available
+Pre-Registration Fee: ₹200 per team (1 member) | ₹300 per team (2 members) | ₹400 per team (3 or 4members)
+ Winner Announcement: 24th March 2026
+ Winner Selection: Based on how well participants impress the judges through explanation, clarity, and body language during the presentation
+  winners:1700
+        Runners:800`,
+
+      ` Event Challenges:
+1. Maximum 7 slides allowed (excluding the Thank You slide)
+2. Maximum presentation time: 4 minutes
+3. Slides should clearly explain the problem, solution, and impact of the idea
+4. Participants must present their topic with clear explanation and confidence
+5. Judges will evaluate content quality, presentation skills, and innovation`,
+
+      ` How to Participate:
+1. Register for the TechSpark paper presentation event
+2. Prepare your presentation slides (PPT) according to the rules
+3. Fill up the details which is asked in the Google forms. Only online payment is available 
+4. Judges will evaluate your technical knowledge and communication skills
+5. The best presentation will be selected as the winner`,
+
+      ` Judges' decision will be final
+ Participate now and showcase your technical creativity!`,
     ],
-    icon: "📄",
+    coordinators: ["Hari Krishna : 6304069520 ", "B Vyshnavi : 9347464897 "],
+
+    icon: FaFileLines,
+    ruleIcon: FaListCheck,
     registration: {
       qr: qrPaperPresentation,
       alerts: [
-        "Registration fee: ₹200 per team",
-        "Abstract submission deadline: March 20, 2026",
-        "PPT must be submitted 2 days before the event",
+        "Pre-Registration Fee: ₹200 per team (1 member) | ₹300 per team (2 members) | ₹400 per team (3 or 4members)",
+        "Must submit the payment screenshot and UTR/transaction ID",
+        "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSctKnrikKP9KwQZgtdVWpA5nj-cPQLX6hjqXYwNlJ8aZZK0Gw/viewform",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLSctKnrikKP9KwQZgtdVWpA5nj-cPQLX6hjqXYwNlJ8aZZK0Gw/viewform",
     },
   },
-
 
   {
     id: "fast-fingers",
@@ -86,22 +132,19 @@ export const events: EventData[] = [
     prize: "1st Prize : ₹600 | Second Prize : ₹300",
     rules: [
       `Registration Details :
-Entry Fee : ₹ 100 per Participant🤑`,
-      `Rules 🚥:
+Entry Fee : ₹ 100 per Participant`,
+      `Rules :
 
-1. Participants will type on a standard keyboard with no specialized tools or aids.🚫
+1. Participants will type on a standard keyboard with no specialized tools or aids.
 2. Typing passages and tasks will be provided either on any typing website or any other platform like 'Typing Master',... based on availability.
-3. Contestants must type the passages🔡🔤🔣🔠 as quickly🏃🏻🏃🏻‍♀️ and accurately✅ as possible.
-4. The event is an individual competition🧍🏻‍♂️,no teams allowed.🚫
-5. No external resources, references, or notes may be used.🚫
+3. Contestants must type the passages as quickly and accurately as possible.
+4. The event is an individual competition,no teams allowed.
+5. No external resources, references, or notes may be used.
 6. Scores will be based on typing speed, accuracy, and completion time.`,
     ],
-    coordinators: [
-      "J Nithin Kumar : 8019729262 ",
-      "S Sai Sahana : 8978460229",
-
-    ],
-    icon: "📄",
+    coordinators: ["J Nithin Kumar : 8019729262 ", "S Sai Sahana : 8978460229"],
+    icon: FaKeyboard,
+    ruleIcon: FaListCheck,
     registration: {
       qr: qrFastFingers,
       alerts: [
@@ -119,44 +162,43 @@ Entry Fee : ₹ 100 per Participant🤑`,
     title: "Bug Busters",
     slug: "bug-busters",
     category: "technical",
-    description: "Find and fix bugs in given code snippets across multiple programming languages. Test your debugging skills under pressure with tricky logical and syntax errors.",
+    description:
+      "Find and fix bugs in given code snippets across multiple programming languages. Test your debugging skills under pressure with tricky logical and syntax errors.",
     date: "March 20, 2026",
     time: "2:00 PM - 4:00 PM",
     venue: "Computer Science Department, JNTUACEA Campus",
-    prize: "🥇 1st Prize: ₹1200 | 🥈 2nd Prize: ₹800",
+    prize: " 1st Prize: ₹1200 |  2nd Prize: ₹800",
     rules: [
-      `🐞 Bug Busters – Debugging Competition
+      ` Bug Busters – Debugging Competition
 Test your debugging skills and win exciting prizes!`,
-`💡 About the Event:
+      ` About the Event:
 Bug Busters is a technical debugging competition conducted as part of Pixel 2K26, where participants must identify and correct errors in C programming code snippets. The contest consists of 30 questions of different difficulty levels that test logical thinking and debugging ability.
-💰 Registration Fee: ₹200
-🏆 Prizes:
-🥇 1st Prize: ₹1200
-🥈 2nd Prize: ₹800
-📜 Certificates will be provided to all participants.`,
+ Registration Fee: ₹200
+ Prizes:
+ 1st Prize: ₹1200
+ 2nd Prize: ₹800
+ Certificates will be provided to all participants.`,
 
-`🍽 Note: Food will be arranged for all participants.`,
-`📌 How to Participate:
-1️⃣ Pay the ₹200 registration fee online
-2️⃣ Fill out the Google Form with the required details
-3️⃣ Report to the venue at least 30 minutes before the time informed in the WhatsApp group
-📌 Event Format:
-1️⃣ Participants will be given 30 buggy C code snippets
-2️⃣ They only need to identify the error and write the corrected line (no need to rewrite the entire program)
-3️⃣ The contest duration is 60 minutes`,
+      ` Note: Food will be arranged for all participants.`,
+      ` How to Participate:
+1. Pay the ₹200 registration fee online
+2. Fill out the Google Form with the required details
+3. Report to the venue at least 30 minutes before the time informed in the WhatsApp group
+ Event Format:
+1. Participants will be given 30 buggy C code snippets
+2. They only need to identify the error and write the corrected line (no need to rewrite the entire program)
+3. The contest duration is 60 minutes`,
 
-`⚠️ Rules:
+      ` Rules:
 • Individual participation only
 • Use of mobile phones or internet is strictly prohibited
 • Any form of malpractice will lead to disqualification
 • Judges’ decision will be final
-🚀 Join Bug Busters and showcase your debugging skills!`,
+ Join Bug Busters and showcase your debugging skills!`,
     ],
-    coordinators: [
-      "Sree Sai - 8142017489",
-      "B Harikha - 8688021066",
-    ],
-    icon: "🐛",
+    coordinators: ["Sree Sai - 8142017489", "B Harikha - 8688021066"],
+    icon: FaBug,
+    ruleIcon: FaTriangleExclamation,
     registration: {
       qr: qrCodeDebugging,
       alerts: [
@@ -164,7 +206,8 @@ Bug Busters is a technical debugging competition conducted as part of Pixel 2K26
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSeY5XMVgVY-h7K1plqc_hPw2JmEG7eR9EvugmuFM9xPIcbvcg/viewform",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeY5XMVgVY-h7K1plqc_hPw2JmEG7eR9EvugmuFM9xPIcbvcg/viewform",
     },
   },
 
@@ -174,27 +217,63 @@ Bug Busters is a technical debugging competition conducted as part of Pixel 2K26
     title: "CODE QUEST - (Technical quiz)",
     slug: "technical-quiz",
     category: "technical",
-    description: "Welcome to Code Quest, an exciting individual technical quiz challenge designed to test your knowledge, analytical thinking, and problem-solving skills in the field of Computer Science.",
+    description:
+      "Welcome to Code Quest, an exciting individual technical quiz challenge designed to test your knowledge, analytical thinking, and problem-solving skills in the field of Computer Science.",
     date: "March 20, 2026",
     time: "10:00 AM - 12:30 PM",
     venue: "Computer Science Department, JNTUACEA Campus",
-    prize: "🥇 1st Prize: ₹1000 |🥈 2nd Prize: ₹800",
+    prize: " 1st Prize: ₹1000 | 2nd Prize: ₹800",
     rules: [
-      "Team of 2 members",
-      "3 rounds: Written, Buzzer, Rapid Fire",
-      "No electronic devices allowed",
-      "Judge's decision is final",
-      "Negative marking in written round",
+      `About the Event:
+Welcome to Code Quest – The Ultimate Technical Quiz Challenge!
+This exciting event is designed to test your knowledge in programming, computer science fundamentals, emerging technologies, logical reasoning, and general tech awareness. Participants will compete in a dynamic quiz environment that challenges both their technical knowledge and problem-solving skills. Whether you are passionate about coding, curious about technology, or love solving challenging questions, this quiz is the perfect platform to showcase your skills.`,
+
+      ` Registration Fee: ₹200
+
+ Prizes:
+• 1st Prize: ₹1000
+• 2nd Prize: ₹800
+• Certificates will be provided to participants`,
+
+      `Event Challenge:
+Participants will face a set of engaging and thought-provoking questions from various technical domains. The challenge is designed to test technical knowledge, logical thinking, and quick decision-making ability in a competitive environment.`,
+
+      ` How to Participate:
+1. Pay the ₹200 registration fee online
+2. Fill out the Google Form with the required details
+3. Join the official participants’ WhatsApp group for updates and instructions
+4. Report to the venue at least 30 minutes before the event time`,
+
+      `Event Format:
+• The quiz will consist of a set of technical questions
+• Questions will be based on core Computer Science concepts
+• Participants will compete individually and scores will determine the winners`,
+
+      ` Rules:
+• Individual participation only
+• Use of mobile phones or internet during the quiz is not allowed
+• Any form of malpractice will lead to disqualification
+• Judges’ decision will be final
+
+Get ready to challenge your mind and embark on the Code Quest!`,
     ],
-    icon: "❓",
+    coordinators: [
+      "P Chandra Likhitha - 9381075626",
+      "J Swapnil Raj - 7569025667",
+    ],
+
+    icon: FaCircleQuestion,
+    ruleIcon: FaCircleInfo,
     registration: {
       qr: qrTechnicalQuiz,
       alerts: [
-        "Registration fee: ₹150 per team",
-        "Teams of 2 members only",
+        "Registration fee: ₹200",
         "No electronic devices allowed during the quiz",
+        "Must submit the payment screenshot and UTR/transaction ID",
+        "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLScnhju2AgGCbMW5AuHOWec-v-3U21zOkmq16eO3zaGui6DiCw/viewform",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLScnhju2AgGCbMW5AuHOWec-v-3U21zOkmq16eO3zaGui6DiCw/viewform?usp=header",
     },
   },
 
@@ -204,45 +283,72 @@ Bug Busters is a technical debugging competition conducted as part of Pixel 2K26
     title: "Hackverse",
     slug: "hackathon",
     category: "technical",
-    description: "We are excited to announce a 12-Hour Hackathon designed to encourage creativity, innovation, and teamwork among developers and tech enthusiasts. Participants will work together to build innovative web solutions within a limited time frame.",
+    description:
+      "We are excited to announce a 12-Hour Hackathon designed to encourage creativity, innovation, and teamwork among developers and tech enthusiasts. Participants will work together to build innovative web solutions within a limited time frame.",
     date: "March 20, 2026",
     time: "10:00 AM (Day 1) - 10:00 AM (Day 2)",
-    venue: "Computer Science Department, JNTUACEA Campus",
+    venue:
+      "Online (with final presentations at JNTUA CEA, Department of Computer Science and Engineering)",
     prize: "₹3,499",
     rules: [
-      `Event Date: 21st
-Hackathon Duration: 12 Hours (Midday to Midnight)
-Entry Fee: ₹499 per team`,
-`Team Details
-- Each team can have 1 to 4 members.
-- Teams will collaborate to design and develop their solutions during the hackathon.`,
-`Hackathon Process
-1. Participants must join the starting meeting at 10:30 AM, where the organizers will explain the rules and provide event instructions. The meeting link will be shared by the organizers.
-2. Around 10 problem statements will be released 1 hour before the hackathon begins, allowing teams to review and plan their approach.
-3. Teams will then begin working on their projects during the 12-hour hackathon.
-4. A presentation/closing meeting will be held around 8:00 PM, where teams will demonstrate their projects. The meeting link will also be shared by the organizers.
-`,
-`Rules
+      `Pixel Hackathon 2K26 is a 12-hour coding challenge where developers collaborate to build innovative web solutions. The event encourages creativity, problem-solving, and teamwork while giving participants an opportunity to showcase their technical skills.`,
+      `Event Details
+
+• Date: 22nd March 2026 
+• Duration: 12 Hours (10:00 AM – 10:00 PM)
+• Entry Fee: ₹499 per team`,
+
+      `Team Size
+
+• Each team can have 1 to 4 members only.`,
+
+      `Hackathon Flow
+
+• Kickoff Meeting – 9:00 AM`,
+
+      `Rules and guidelines will be explained before the event begins.
+
+• Around 10 problem statements will be released 1 hour before the hackathon starts.
+
+• Teams will work on their projects during the 12-hour hackathon.
+
+• At the end of the hackathon, teams will submit their project link and source code.
+
+• Shortlisted teams will be invited to the venue — JNTUA CEA, Department of Computer Science and Engineering — for the final presentation and winner declaration.`,
+
+      `Rules
+
 • Projects must be original and developed during the hackathon.
+
 • Pre-built or copied projects are not allowed.
+
 • Teams must submit their source code and project link before the deadline.
+
 • Plagiarism or cheating will lead to disqualification.
+
 • Team members cannot be changed after registration.
-• All teams must present their project at the end of the hackathon.
+
+• All teams must present their project in the final round if shortlisted.
+
 • Late submissions will not be accepted.
+
 • The organizing team’s decision will be final.`,
-`Certificates & Results
 
-- All participants will receive a Participation Certificate.
-- The final results will be announced on the 24th after evaluation by the organizing team.
+      `Prize
 
-This hackathon provides a great opportunity for developers to showcase their creativity, problem-solving skills, and teamwork while building innovative web solutions in a competitive and engaging environment.`
+ First Prize: ₹3499
+
+The prize money and winner certificate will be awarded on 24th at the JNTUA CEA, Department of Computer Science and Engineering.`,
+
+      `Certificates
+
+All participants who take part in the hackathon will receive participation certificates online.
+
+ Join Pixel Hackathon 2K26 and build innovative web solutions!`,
     ],
-    coordinators: [
-      "J Neharika - 7893153725",
-      "S Sathwik - 9014941863",
-    ],
-    icon: "💻",
+    coordinators: ["J Neharika - 7893153725", "S Sathwik - 9014941863"],
+    icon: FaLaptopCode,
+    ruleIcon: FaShieldHalved,
     registration: {
       qr: qrHackathon,
       alerts: [
@@ -252,59 +358,65 @@ This hackathon provides a great opportunity for developers to showcase their cre
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSeT_A1uPL9pUjeqYLHTKFrHuhgaTXBDWDtf_dbhTO7ONAICqw/viewform?usp=header",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeT_A1uPL9pUjeqYLHTKFrHuhgaTXBDWDtf_dbhTO7ONAICqw/viewform?usp=header",
     },
   },
 
-    ///// Time-Limited Coding /////
+  ///// Time-Limited Coding /////
   {
     id: "time-limited-coding",
     title: "CodeRush – Time-limited coding competition",
     slug: "time-limited-coding",
     category: "technical",
-    description: "Competitive programming challenge with time constraints. Solve algorithmic problems of varying difficulty in the shortest time. Speed and accuracy both matter!",
+    description:
+      "Competitive programming challenge with time constraints. Solve algorithmic problems of varying difficulty in the shortest time. Speed and accuracy both matter!",
     date: "March 20, 2026",
     time: "10:00 AM - 1:00 PM",
-    venue: "Online - Coding Platform( Hacker Rank )",
-    prize: "> Online - (1st) rs. 700 | (2nd) rs. 300 > Offline - (1st) rs. 1000 | (2nd) rs. 700",
-    coordinators: [
-      "G samatha - 9398138395",
-      "M rana sadiq - 9398548481",
-    ],
+    venue: "Computer Science Department, JNTUACEA Campus",
+    prize:
+      "Online - (1st) rs. 700 | (2nd) rs. 300 > Offline - (1st) rs. 1000 | (2nd) rs. 700",
+    coordinators: ["G samatha - 9398138395", "M rana sadiq - 9398548481"],
     rules: [
-      `💻 Code Rush – Coding Competition | PIXEL 2K26
-Think fast. Code faster. Compete with the best!
+      ` Code Rush – Coding Competition | PIXEL 2K26
+Think fast. Code faster. Compete with the best!`,
 
-🚀 Code Rush is an exciting coding competition designed to test participants’ logical thinking, programming skills, and problem-solving abilities. In this contest, participants will solve a set of programming challenges divided into three difficulty levels: Easy, Medium, and Hard.
+      ` Code Rush is an exciting coding competition designed to test participants’ logical thinking, programming skills, and problem-solving abilities. In this contest, participants will solve a set of programming challenges divided into three difficulty levels: Easy, Medium, and Hard.
 
 Each level will challenge your ability to analyze problems, write efficient code, and solve them within a limited time. Participants will compete with other coders and try to solve as many problems as possible to climb the leaderboard.
 
-This competition encourages creativity, speed, and accuracy in coding and is perfect for students who love programming and want to challenge their skills in a competitive environment.
+This competition encourages creativity, speed, and accuracy in coding and is perfect for students who love programming and want to challenge their skills in a competitive environment.`,
 
-📅 Event Date: 24th March 2026
-📍 Venue: JNTUA College of Engineering, Anantapur
-🧑‍💻 Participation: Individual
-📝 Spot Registration: Available
+      ` Event Date: 24th March 2026
+ Venue: JNTUA College of Engineering, Anantapur
+ Participation: Individual
+ Spot Registration: Available`,
 
-🏆 Why Participate?
+      `Entry fee:
+Pre - Registration - rs.150
+Spot Registration  are available for Offline`,
+
+      ` Why Participate?
 • Test your coding and problem-solving skills
 • Compete with talented programmers
 • Gain experience in real coding contests
-• Win exciting prizes and recognition
+• Win exciting prizes and recognition`,
 
-📌 Competition Format:
-1️⃣ Participants will solve coding problems during the contest
-2️⃣ Problems will be divided into Easy, Medium, and Hard levels
-3️⃣ Points will be awarded based on correct solutions and difficulty level
-4️⃣ Participants with the highest score will rank on the leaderboard
+      ` Competition Format:
+1. Participants will solve coding problems during the contest
+2. Problems will be divided into Easy, Medium, and Hard levels
+3. Points will be awarded based on correct solutions and difficulty level
+4. Participants with the highest score will rank on the leaderboard`,
 
-⚠️ Rules:
+      ` Rules:
 • Individual participation only
 • Participants must follow fair coding practices
 • Any form of plagiarism or cheating will lead to disqualification
 • Decisions by the organizers will be final`,
     ],
-    icon: "⏱️",
+
+    icon: FaStopwatch,
+    ruleIcon: FaGavel,
     registration: {
       qr: qrTimeLimitedCoding,
       alerts: [
@@ -315,41 +427,47 @@ This competition encourages creativity, speed, and accuracy in coding and is per
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSe6r06fqmKjo1P8LHbWVFpd-p_RR-0Ho-inoznlkvGvLSoNGQ/viewform?usp=header",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLSe6r06fqmKjo1P8LHbWVFpd-p_RR-0Ho-inoznlkvGvLSoNGQ/viewform?usp=header",
     },
   },
 
-    ///// Prompt 2Pixel /////
+  ///// Prompt 2Pixel /////
   {
     id: "prompt-event",
     title: "Prompt 2Pixel",
     slug: "prompt-event",
     category: "technical",
-    description: "Master the art of database queries! Write complex SQL queries to solve real-world data problems. From basic SELECT to advanced joins and subqueries.",
-    date: "March 27, 2026",
+    description:
+      "Prompt 2Pixel is an AI-based competition where participants use prompt engineering skills to generate creative images using Dreamstudio.ai. Write the best prompt, transform your ideas into visuals, and compete to create the most impressive AI-generated image.",
+    date: "March 20, 2026",
     time: "2:00 PM - 4:30 PM",
     venue: "Computer Lab 2, JNTUA Campus",
-    prize: "₹6,000 (1st) | ₹3,500 (2nd) | ₹2,000 (3rd)",
+    prize: "₹500 (1st) | ₹300 (2nd)",
     rules: [
-      "Individual participation only",
-      "MySQL/PostgreSQL syntax accepted",
-      "3 rounds with increasing complexity",
-      "Time-based scoring",
-      "No reference materials allowed",
+      `Prompt 2Pixel is an AI-based competition where participants use prompt engineering skills to generate creative images using Dreamstudio.ai. Write the best prompt, transform your ideas into visuals, and compete to create the most impressive AI-generated image.`,
+      `Entry Fee : ₹100 per participant`,
+      `Prize : ₹500 (1st) , ₹300 (2nd).`,
+
+      `Rules :
+1)Individual participate only.
+2)Participants will be given a blurred grayscale image and a theme, and they must recreate the image as accurately.
+3)Internet search for prompts or copying from others is not allowed.
+4)The generated image and prompt must be submitted before time ends.
+5)Winners will be selected based on accuracy, creativity, and prompt quality.`,
     ],
-    icon: "🗃️",
+    icon: FaWandMagicSparkles,
+    ruleIcon: FaListCheck,
     registration: {
       qr: qrPromtEvent,
       alerts: [
         "Registration fee: ₹100 per participant",
         "Individual participation only",
-        "MySQL/PostgreSQL syntax accepted",
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://forms.gle/placeholder-sql-query-cracking",
+      formLink: "https://forms.gle/g6soFWw7fxdpjjA96",
     },
-    
   },
   ///////////////Non-Technical Events////////////////
 
@@ -359,7 +477,8 @@ This competition encourages creativity, speed, and accuracy in coding and is per
     title: "Pixel Warzone - Free Fire Tournament",
     slug: "free-fire",
     category: "non-technical",
-    description: "Battle it out in the ultimate Free Fire showdown! Squad-based tournament with multiple rounds. Show your gaming skills and strategy to win exciting prizes.",
+    description:
+      "Battle it out in the ultimate Free Fire showdown! Squad-based tournament with multiple rounds. Show your gaming skills and strategy to win exciting prizes.",
     date: "March 20, 2026",
     time: "3:00 PM - 6:00 PM",
     venue: "Gaming Arena Online",
@@ -383,19 +502,17 @@ Winner Prize: ₹800
 Runner-Up Prize: ₹400
 Prize pool may increase if more teams register.`,
 
-`Important Notes:
+      `Important Notes:
 - All participants must follow fair play rules (no hacks, cheats, or emulators if restricted).
 - Match details, room ID, and password will be shared with registered players before the event.
 - The organizers' decision will be final in case of disputes.`,
 
-`Gather your squad or fight solo and prove you have what it takes to dominate Pixel Warzone!
+      `Gather your squad or fight solo and prove you have what it takes to dominate Pixel Warzone!
 Register now and aim for the BOOYAH!`,
     ],
-    coordinators: [
-      "S Apsar - 9959791329",
-      "N Karthik - 9014088846",
-    ],
-    icon: "🔥",
+    coordinators: ["S Apsar - 9959791329", "N Karthik - 9014088846"],
+    icon: FaFire,
+    ruleIcon: FaShieldHalved,
     registration: {
       qr: qrFreeFire,
       alerts: [
@@ -403,7 +520,8 @@ Register now and aim for the BOOYAH!`,
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLScxr6_oI9_C6QBlLsryELIl_eYGJA1NfgkJasGxAlBo2rUiHQ/viewform?usp=header",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLScxr6_oI9_C6QBlLsryELIl_eYGJA1NfgkJasGxAlBo2rUiHQ/viewform?usp=header",
     },
   },
 
@@ -413,7 +531,8 @@ Register now and aim for the BOOYAH!`,
     title: "Pixel Lens - (Photography)",
     slug: "photography",
     category: "non-technical",
-    description: "Capture the essence of campus life, nature, or the fest itself! Submit your best photographs and let your creativity shine through the lens.",
+    description:
+      "Capture the essence of campus life, nature, or the fest itself! Submit your best photographs and let your creativity shine through the lens.",
     date: "March 20, 2026",
     time: "All Day",
     venue: "Online Submission",
@@ -438,7 +557,8 @@ Register now and aim for the BOOYAH!`,
 - If fake likes or mod accounts are detected, the entry will be disqualified
 - Last date for submission is 20th`,
     ],
-    icon: "📸",
+    icon: FaCamera,
+    ruleIcon: FaCircleInfo,
     registration: {
       qr: qrPhotography,
       alerts: [
@@ -446,7 +566,8 @@ Register now and aim for the BOOYAH!`,
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSdRbLJMEx3FSMzP2K_D8RyNw-QCUKkLYR5TO-yf_djmjiemNQ/viewform?usp=header",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLSdRbLJMEx3FSMzP2K_D8RyNw-QCUKkLYR5TO-yf_djmjiemNQ/viewform?usp=header",
     },
   },
 
@@ -456,18 +577,16 @@ Register now and aim for the BOOYAH!`,
     title: "Brain Buzzer - (Non-Tech Quiz)",
     slug: "non-tech-quiz",
     category: "non-technical",
-    description: "General knowledge quiz covering current affairs, sports, entertainment, history, geography, and pop culture. Fun and intellectually stimulating!",
+    description:
+      "General knowledge quiz covering current affairs, sports, entertainment, history, geography, and pop culture. Fun and intellectually stimulating!",
     date: "March 20, 2026",
     time: "2:00 PM - 4:00 PM",
     venue: "CSE Department, JNTUA College of Engineering Anantapur",
-    prize: `🥇 1st Prize: ₹700 |🥈 2nd Prize: ₹500 | Certificate is awarded`,
-    coordinators: [
-      "G Keerthi - 8019664332",
-      "R Ashok Kumar Naik - 9553203303",
-    ],
+    prize: ` 1st Prize: ₹700 | 2nd Prize: ₹500 | Certificate is awarded`,
+    coordinators: ["G Keerthi - 8019664332", "R Ashok Kumar Naik - 9553203303"],
     rules: [
-      "💰 Entry Fee: ₹200",
-      `🧠 Quiz Topics Include:
+      " Entry Fee: ₹200",
+      ` Quiz Topics Include:
 • Current Affairs
 • Mythology
 • Sports
@@ -489,7 +608,8 @@ Register now and aim for the BOOYAH!`,
       "No electronic devices allowed",
       "Judge's decision is final",
     ],
-    icon: "🧠",
+    icon: FaBrain,
+    ruleIcon: FaCircleInfo,
     registration: {
       qr: qrNonTechQuiz,
       alerts: [
@@ -498,17 +618,19 @@ Register now and aim for the BOOYAH!`,
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLScOH9x3e6hd44dygvSaxhaRBWruw1PqXHQAIbdZHr-XmisBAA/viewform?usp=header",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLScOH9x3e6hd44dygvSaxhaRBWruw1PqXHQAIbdZHr-XmisBAA/viewform?usp=header",
     },
   },
 
-    ///// Meme Competition //////
+  ///// Meme Competition //////
   {
     id: "meme-competition",
     title: "Meme Competition",
     slug: "meme-competition",
     category: "non-technical",
-    description: "Create the funniest and most relatable memes! Topics will be given on the spot. Let your humor and creativity flow. Show your humor and win exciting prizes!",
+    description:
+      "Create the funniest and most relatable memes! Topics will be given on the spot. Let your humor and creativity flow. Show your humor and win exciting prizes!",
     date: "March 20, 2026",
     time: "11:00 AM - 1:00 PM",
     venue: "Online Submission",
@@ -520,28 +642,28 @@ Register now and aim for the BOOYAH!`,
       "V Sai Rishi kumar - 9390455681 \n",
     ],
     rules: [
-      `Think you are the meme lord of your college? 👑  
+      `Think you are the meme lord of your college?   
 Show your creativity and make everyone laugh!
 
-⏰ Last Date to Register & Submit Meme: 20th March 2026
+ Last Date to Register & Submit Meme: 20th March 2026
 
-📢 Result Announcement: 23rd March 2026 
+ Result Announcement: 23rd March 2026 
 
-🏆 Winner Selection: Based on the highest number of likes on our Instagram post & Judges💰 
+ Winner Selection: Based on the highest number of likes on our Instagram post & Judges 
 
-Entry Fee: ₹70 (Online payment only) 
+Entry Fee: ₹50 (Online payment only) 
 
  Winning Prize: ₹400`,
 
-`📌 How to Participate:
-1️⃣ Pay the registration fee ₹70 online 
-2️⃣ Fill out the official Registration Google Form and upload your meme
-3️⃣ Join the official participants' WhatsApp group using the link provided at the end of the form
-4️⃣ Fill out the secondary Google form in the group to provide your Instagram handle 
-5️⃣ We will post your meme on our Instagram page with your name
-6️⃣ The meme with the most likes wins! & Judges`,
+      ` How to Participate:
+1 Pay the registration fee ₹50 online 
+2 Fill out the official Registration Google Form and upload your meme
+3 Join the official participants' WhatsApp group using the link provided at the end of the form
+4 Fill out the secondary Google form in the group to provide your Instagram handle 
+5 We will post your meme on our Instagram page with your name
+6 The meme with the most likes wins! & Judges`,
 
-`⚠️ Rules:
+      ` Rules:
 
 • Only one meme per participant or team 
 • Meme must be original and related to technology, coding, or college life
@@ -550,29 +672,32 @@ Entry Fee: ₹70 (Online payment only)
 • If fake likes or bot accounts are detected, the entry will be disqualified 
 • Last date for submission is 20th March 2026
 
-💻 Participate now and showcase your meme-making skills!`
+ Participate now and showcase your meme-making skills!`,
     ],
-    icon: "😂",
+    icon: FaFaceLaughBeam,
+    ruleIcon: FaTriangleExclamation,
     registration: {
       qr: qrMemeCompetition,
       alerts: [
-        "Registration fee: ₹70 per participant",
+        "Registration fee: ₹50 per participant",
         "Topics will be revealed on the spot",
         "No offensive or inappropriate content allowed",
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSdcITwq53TbchOuEYRI9Ky1McOI1xozc2ZKYrmljccGlN3xew/viewform?usp=header",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLSdcITwq53TbchOuEYRI9Ky1McOI1xozc2ZKYrmljccGlN3xew/viewform?usp=header",
     },
   },
 
-    ///// Chess Arena //////
+  ///// Chess Arena //////
   {
     id: "chess",
     title: "Chess Arena",
     slug: "chess",
     category: "non-technical",
-    description: "An elite gathering of strategic minds, where every move shapes destiny and precision defines victory. Test your strategic thinking against the best minds. All skill levels welcome!",
+    description:
+      "An elite gathering of strategic minds, where every move shapes destiny and precision defines victory. Test your strategic thinking against the best minds. All skill levels welcome!",
     date: "March 20, 2026",
     time: "10:00 AM - 5:00 PM",
     venue: "Online - Chess.com",
@@ -582,32 +707,33 @@ Entry Fee: ₹70 (Online payment only)
       `G Lakshmi Prasanna - 9949768475`,
     ],
     rules: [
-      `♟️ CHESS ARENA 2k26
+      ` CHESS ARENA 2k26
 
 Think fast, play smart, and prove your strategy in the ultimate chess battle!
 
-🗓 Event Date: 20th March 2026
-🎉 Event Fest: Pixel2K26
-💻 Platform: Chess.com
-⏱ Match Format: 3+0 Blitz
-💰 Entry Fee: ₹100
-🏆 Grand Prize: ₹700`,
+ Event Date: 20th March 2026
+ Event Fest: Pixel2K26
+ Platform: Chess.com
+ Match Format: 3+0 Blitz
+ Entry Fee: ₹100
+ Grand Prize: ₹700`,
 
-`📌 About the Event:
+      ` About the Event:
 Chess Arena is an exciting online chess competition organized as part of Pixel2K26, specially designed for players who are ready to test their skills, speed, and strategy. Compete against talented participants, make every move count, and fight your way to victory in this thrilling 3-minute chess format.`,
-`🎯 Why Participate?
+      ` Why Participate?
 • Show your chess talent and strategic thinking
 • Compete with other passionate players
 • Experience the thrill of fast-paced online matches
 • Win exciting prize money and recognition`,
 
-`⚡ Game Details:
+      ` Game Details:
 • Matches will be conducted on the Chess.com app
 • Each game will follow a 3-minute time control
 • Participants must join on time and be ready to play
-• Fair play is strictly expected from all players`
+• Fair play is strictly expected from all players`,
     ],
-    icon: "♟️",
+    icon: FaChessKnight,
+    ruleIcon: FaGavel,
     registration: {
       qr: qrChess,
       alerts: [
@@ -616,72 +742,90 @@ Chess Arena is an exciting online chess competition organized as part of Pixel2K
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSdMSEbOXyz-izNuL-9gWZPPsKDzBSMwI_JrzjQ3e_yZev2l-Q/viewform?usp=header",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLSdMSEbOXyz-izNuL-9gWZPPsKDzBSMwI_JrzjQ3e_yZev2l-Q/viewform?usp=header",
     },
   },
 
-    ///// Reel Competition //////
+  ///// Reel Competition //////
   {
     id: "reel-competition",
     title: "Reel Competition",
     slug: "reel-competition",
     category: "non-technical",
-    description: "Create engaging and creative Instagram-style reels about college life, the fest, or given themes. Best reels with maximum creativity win!",
+    description:
+      "Create engaging and creative Instagram-style reels about college life, the fest, or given themes. Best reels with maximum creativity win!",
     date: "March 20, 2026",
     time: "Submit by 6:00 PM, March 27",
     venue: "Online Submission + JNTUA Campus",
-    prize: "₹5,000 (1st) | ₹3,000 (2nd) | ₹2,000 (3rd)",
+    prize: "Winning Prize: ₹400",
     rules: [
-      `Welcome to the Reel Competition organized as part of PIXEL –CSE Department Fest 2026. 🎬
-Participants are invited to showcase their creativity by creating engaging and innovative reels. The competition will be held on 24-03-2026.
-Please fill out this form to register for the event. Make sure all the details provided are correct. Further instructions and rules will be shared with the registered participants.
-Get ready to create, capture, and inspire! ✨`,
-      "Individual or duo participation",
-      "Reel duration: 30-90 seconds",
-      "Must include #Pixel2026 hashtag",
-      "No copyrighted music without license",
-      "Judged on creativity, editing, and engagement",
+      `Show your creativity and win exciting prizes!`,
+      ` Last Date to Register: 20th March 2026
+ Result Announcement: 22nd March 2026
+ Winner Selection: Based on the highest number of likes on our Instagram post
+ Entry Fee: ₹50 (Online payment only)
+ Winning Prize: ₹400`,
+      ` How to Participate:
+1. Pay the registration fee ₹50 online
+2. Create a reel (maximum 30 seconds) based on your creativity
+3. Upload the reel to Google Drive and share the drive link
+4. Provide your Name, Contact Number, and Email ID
+5. Our team will post your reel on our official Instagram page with your name
+6. The reel with the highest number of likes wins!`,
+      ` Rules:
+• Only one reel per participant/team
+• Reel duration must be within 30 seconds
+• Content must be original and creative
+• Negative, abusive, or trolling content is not allowed
+• Participants must provide valid contact details and email
+• Mod / fake / bot accounts are strictly prohibited
+• If fake likes or mod accounts are detected, the entry will be disqualified
+• Last date for submission is 20th March 2026
+ Participate now and showcase your creativity!`,
     ],
-    icon: "🎬",
+    coordinators: ["Geetha - 6304821550\n", "Gowri Shankar - 7989009215"],
+    icon: FaVideo,
+    ruleIcon: FaListCheck,
     registration: {
       qr: qrReelCompetition,
       alerts: [
-        "Registration fee: ₹100 per participant or duo",
-        "Reel duration: 30–90 seconds",
-        "Must include #Pixel2026 hashtag",
-        "Submit by 6:00 PM on March 27",
+        "Registration fee: ₹50 per participant",
+        "Individual participation only",
+        "Must submit the payment screenshot and UTR/transaction ID",
+        "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://forms.gle/placeholder-reel-competition",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLSfU4tdF7ZP9CyqHpGTrK6pGmXtRY6aAlQ6wm0y9PdQmktkBAg/viewform?usp=header",
     },
   },
 
-      ///// BGMI Tournament //////  
+  ///// BGMI Tournament //////
   {
     id: "bgmi",
     title: "BGMI Tournament",
     slug: "bgmi",
     category: "non-technical",
-    description: "Battlegrounds Mobile India tournament! Assemble your squad and compete in intense battle royale matches. Multiple rounds leading to the grand finale.",
+    description:
+      "Battlegrounds Mobile India tournament! Assemble your squad and compete in intense battle royale matches. Multiple rounds leading to the grand finale.",
     date: "March 20, 2026",
     time: "4:00 PM - 8:00 PM",
     venue: "Gaming Arena, JNTUA Campus",
     prize: `Highest Kills (₹400) | Chicken Dinner (₹300)`,
     rules: [
-      `🔥 Get ready for an intense Battlegrounds Mobile India (BGMI) Tournament as part of PixelStack 2K26! Compete with the best players, showcase your gaming skills, and fight for exciting cash prizes.`,
-      `⏰ Registration Open Now
-      💰 Prize Pool:
+      ` Get ready for an intense Battlegrounds Mobile India (BGMI) Tournament as part of PixelStack 2K26! Compete with the best players, showcase your gaming skills, and fight for exciting cash prizes.`,
+      ` Registration Open Now
+       Prize Pool:
       • Highest Kills – ₹400
       • Chicken Dinner – ₹300
-      🎯 Entry Fee:
+       Entry Fee:
       • Squad Entry – ₹150
       • Solo Entry – ₹40`,
       "Emulators and triggers not allowed",
     ],
-    coordinators: [
-      "Rakesh - 9014142283",
-      "Rana Sadiq - 939854848",
-    ],
-    icon: "🎮",
+    coordinators: ["Rakesh - 9014142283", "Rana Sadiq - 939854848"],
+    icon: FaGamepad,
+    ruleIcon: FaShieldHalved,
     registration: {
       qr: qrBgmi,
       alerts: [
@@ -690,10 +834,27 @@ Get ready to create, capture, and inspire! ✨`,
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSd5UoqKXB1GPcyU_o8bs7Re3E-FNglHSBfffJ1bDsdU7cRmQg/viewform?usp=header",
+      formLink:
+        "https://docs.google.com/forms/d/e/1FAIpQLSd5UoqKXB1GPcyU_o8bs7Re3E-FNglHSBfffJ1bDsdU7cRmQg/viewform?usp=header",
     },
-  }
+  },
 ];
 
+const normalizeRuleText = (text: string): string =>
+  text
+    .split("\n")
+    .map((line) => line.trim())
+    .map((line) => line.replace(/^(\d+)\s+/, "$1. "))
+    .join("\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+
+export const events: EventData[] = rawEvents.map((event) => ({
+  ...event,
+  rules: event.rules.map(normalizeRuleText),
+}));
+
 export const technicalEvents = events.filter((e) => e.category === "technical");
-export const nonTechnicalEvents = events.filter((e) => e.category === "non-technical");
+export const nonTechnicalEvents = events.filter(
+  (e) => e.category === "non-technical",
+);

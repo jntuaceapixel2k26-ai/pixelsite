@@ -16,14 +16,17 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="font-display text-xl font-bold text-gradient tracking-wider">
+          <Link
+            to="/"
+            className="font-display text-base sm:text-xl font-bold text-gradient tracking-[0.2em] sm:tracking-wider max-w-[70vw] truncate"
+          >
             PIXEL 2k26
           </Link>
 
           {/* Desktop */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6 lg:gap-8">
             {navItems.map((item) => (
               <Link
                 key={item.path}
@@ -57,7 +60,7 @@ const Navbar = () => {
                 key={item.path}
                 to={item.path}
                 onClick={() => setIsOpen(false)}
-                className={`block py-3 px-2 text-sm font-medium tracking-wide transition-colors hover:text-primary ${
+                className={`block rounded-md py-3 px-3 text-sm font-medium tracking-wide transition-colors hover:text-primary hover:bg-muted/40 ${
                   location.pathname === item.path
                     ? "text-primary"
                     : "text-muted-foreground"

@@ -39,7 +39,7 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section className="py-20 px-4">
+      <section className="py-16 sm:py-20 px-4">
         <div className="container mx-auto max-w-3xl text-center">
           <SectionTitle title="About Pixel Fest" subtitle="The flagship annual fest of JNTUACEA, Anantapur" />
           <p className="text-muted-foreground leading-relaxed">
@@ -52,7 +52,7 @@ const Index = () => {
       </section>
 
       {/* Technical Events */}
-      <section className="py-20 px-4 bg-card/50">
+      <section className="py-16 sm:py-20 px-4 bg-card/50">
         <div className="container mx-auto">
           <SectionTitle title="Technical Events" subtitle="Showcase your coding and engineering skills" />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -69,7 +69,7 @@ const Index = () => {
       </section>
 
       {/* Non-Technical Events */}
-      <section className="py-20 px-4">
+      <section className="py-16 sm:py-20 px-4">
         <div className="container mx-auto">
           <SectionTitle title="Non-Technical Events" subtitle="Fun, gaming, creativity and more" />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -86,7 +86,7 @@ const Index = () => {
       </section>
 
       {/* Gallery Preview */}
-      <section className="py-20 px-4 bg-card/50">
+      <section className="py-16 sm:py-20 px-4 bg-card/50">
         <div className="container mx-auto">
           <SectionTitle title="Gallery" subtitle="Glimpses from previous editions" />
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -110,16 +110,19 @@ const Index = () => {
       </section>
 
       {/* Contact Preview */}
-      <section className="py-20 px-4">
+      <section className="py-16 sm:py-20 px-4">
         <div className="container mx-auto max-w-2xl text-center">
           <SectionTitle title="Get In Touch" subtitle="Have questions? Reach out to us!" />
           <div className="space-y-2 text-muted-foreground text-sm">
             <p>JNTUACEA, M.V. Nagar, Anantapur, AP – 515002</p>
-            <p>jntuaceapixel2k26@gmail.com | +91 7672005738 | +91 7330668287</p>
+            <p className="break-words">jntuaceapixel2k26@gmail.com</p>
+            <p>Main Co-ordinators</p>
+            <p> Ch Hrishikesh Kumar - +91 7672005738 </p>
+            <p> B Rakesh Kumar - +91 7330668287</p>
           </div>
           <Link
             to="/contact"
-            className="inline-block mt-6 bg-gradient-primary text-primary-foreground font-display font-semibold py-3 px-8 rounded-lg text-sm tracking-wider hover:opacity-90 transition-opacity"
+            className="inline-block mt-6 w-full sm:w-auto bg-gradient-primary text-primary-foreground font-display font-semibold py-3 px-8 rounded-lg text-sm tracking-wider hover:opacity-90 transition-opacity"
           >
             CONTACT US
           </Link>

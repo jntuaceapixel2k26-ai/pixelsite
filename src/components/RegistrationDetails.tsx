@@ -1,35 +1,44 @@
-import { EventRegistration } from "@/data/events";
+import { EventRegistration } from "@/data/events.ts";
 
 interface RegistrationDetailsProps {
   eventTitle: string;
   registration: EventRegistration;
 }
 
-const RegistrationDetails = ({ eventTitle, registration }: RegistrationDetailsProps) => {
+const RegistrationDetails = ({
+  eventTitle,
+  registration,
+}: RegistrationDetailsProps) => {
   return (
     <div className="space-y-5 mt-6 animate-fade-in">
       {/* Alerts */}
       <div className="space-y-2">
-        <h4 className="text-sm font-semibold text-foreground uppercase tracking-wider">Important Notes</h4>
+        <h4 className="text-sm font-semibold text-foreground uppercase tracking-wider">
+          Important Notes
+        </h4>
         {registration.alerts.map((alert, i) => (
           <div
             key={i}
             className="flex items-start gap-2 text-sm text-amber-300 bg-amber-400/10 border border-amber-400/30 rounded-lg px-3 py-2"
           >
             <span className="mt-0.5 shrink-0">⚠️</span>
-            <span>{alert}</span>
+            <span className="break-words">{alert}</span>
           </div>
         ))}
       </div>
 
       {/* Payment QR */}
       <div className="p-4 bg-muted rounded-lg text-center border border-border">
-        <p className="text-sm font-semibold text-foreground mb-1">Scan to Pay Registration Fee</p>
-        <p className="text-xs text-muted-foreground mb-3">Pay via UPI and fill the form below</p>
+        <p className="text-sm font-semibold text-foreground mb-1">
+          Scan to Pay Registration Fee
+        </p>
+        <p className="text-xs text-muted-foreground mb-3">
+          Pay via UPI and fill the form below
+        </p>
         <img
           src={registration.qr}
           alt={`Payment QR for ${eventTitle}`}
-          className="w-40 h-40 sm:w-40 sm:h-40 mx-auto rounded-lg border border-border object-contain"
+          className="w-32 h-32 sm:w-40 sm:h-40 mx-auto rounded-lg border border-border object-contain"
         />
       </div>
 
@@ -38,7 +47,7 @@ const RegistrationDetails = ({ eventTitle, registration }: RegistrationDetailsPr
         href={registration.formLink}
         target="_blank"
         rel="noopener noreferrer"
-        className="block w-full text-center bg-gradient-to-r from-primary to-purple-500 text-primary-foreground font-display font-semibold py-3 px-6 rounded-lg text-sm tracking-wider hover:opacity-90 transition-opacity shadow-glow"
+        className="block w-full text-center bg-gradient-to-r from-primary to-purple-500 text-primary-foreground font-display font-semibold py-3 px-4 sm:px-6 rounded-lg text-sm tracking-wider hover:opacity-90 transition-opacity shadow-glow"
       >
         FILL REGISTRATION FORM →
       </a>

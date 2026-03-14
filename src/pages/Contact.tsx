@@ -7,9 +7,12 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <div className="pt-24 pb-20 px-4">
+      <div className="pt-20 sm:pt-24 pb-16 sm:pb-20 px-4">
         <div className="container mx-auto max-w-4xl">
-          <SectionTitle title="Contact Us" subtitle="We'd love to hear from you!" />
+          <SectionTitle
+            title="Contact Us"
+            subtitle="We'd love to hear from you!"
+          />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="space-y-6">
@@ -34,27 +37,34 @@ const Contact = () => {
                   lines: ["jntuaceapixel2k26@gmail.com"],
                 },
               ].map((item, i) => (
-                <div key={i} className="bg-card border border-border rounded-lg p-6 bg-gradient-card">
+                <div
+                  key={i}
+                  className="bg-card border border-border rounded-lg p-5 sm:p-6 bg-gradient-card"
+                >
                   <div className="flex items-center gap-3 mb-3">
                     <div className="text-primary">{item.icon}</div>
-                    <h3 className="font-display text-sm font-bold text-foreground tracking-wider">{item.title}</h3>
+                    <h3 className="font-display text-sm font-bold text-foreground tracking-wider">
+                      {item.title}
+                    </h3>
                   </div>
-                  <div className="space-y-1">
+                  <div className="space-y-1 break-words">
                     {item.lines.map((line, j) => (
-                      <p key={j} className="text-sm text-muted-foreground">{line}</p>
+                      <p key={j} className="text-sm text-muted-foreground">
+                        {line}
+                      </p>
                     ))}
                   </div>
                 </div>
               ))}
             </div>
 
-            <div className="bg-card border border-border rounded-lg overflow-hidden">
+            <div className="bg-card border border-border rounded-lg overflow-hidden min-h-[320px] sm:min-h-[420px]">
               <iframe
                 title="JNTUACEA Location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7!2d77.602!3d14.682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb14b1b1b1b1b1b%3A0x1b1b1b1b1b1b1b1b!2sJNTU%20Anantapur!5e0!3m2!1sen!2sin!4v1234567890"
                 width="100%"
                 height="100%"
-                style={{ border: 0, minHeight: "350px" }}
+                style={{ border: 0, minHeight: "100%" }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
