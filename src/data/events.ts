@@ -791,7 +791,7 @@ Chess Arena is an exciting online chess competition organized as part of Pixel2K
     date: "March 20, 2026",
     time: "Submit by 6:00 PM, March 27",
     venue: "Online Submission + JNTUA Campus",
-    prize: "Winning Prize: ₹400",
+    prize: "Winning Prize: ₹350",
     rules: [
       `Show your creativity and win exciting prizes!`,
       ` Last Date to Register: 20th March 2026
