@@ -798,7 +798,7 @@ Chess Arena is an exciting online chess competition organized as part of Pixel2K
  Result Announcement: 22nd March 2026
  Winner Selection: Based on the highest number of likes on our Instagram post
  Entry Fee: ₹50 (Online payment only)
- Winning Prize: ₹400`,
+ Winning Prize: ₹350`,
       ` How to Participate:
 1. Pay the registration fee ₹50 online
 2. Create a reel (maximum 30 seconds) based on your creativity
