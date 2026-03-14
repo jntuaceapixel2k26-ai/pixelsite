@@ -24,7 +24,7 @@ const Index = () => {
             JNTUACEA CSE Presents
           </p>
           <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-black text-gradient mb-6 tracking-wider">
-            PIXEL<img src={pixelLogo} alt="Pixel 2k26" className="inline-block w-21 h-21" />2k26
+            PIXEL<img src={pixelLogo} alt="logo" className="inline-block w-21 h-21" />2k26
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl max-w-xl mx-auto mb-8">
             Where Technology Meets Celebration. March 24–25, 2026.

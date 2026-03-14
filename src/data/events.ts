@@ -470,6 +470,7 @@ Spot Registration  are available for Offline`,
     time: "2:00 PM - 4:30 PM",
     venue: "Computer Lab 2, JNTUA Campus",
     prize: "₹500 (1st) | ₹300 (2nd)",
+    coordinators: ["M.Sayeed : +91 93477 75813", "R.C Usha : +91 95534 13096"],
     rules: [
       `Prompt 2Pixel is an AI-based competition where participants use prompt engineering skills to generate creative images using Dreamstudio.ai. Write the best prompt, transform your ideas into visuals, and compete to create the most impressive AI-generated image.`,
       `Register: 23rd March 2026,Spot registrations are available`,
