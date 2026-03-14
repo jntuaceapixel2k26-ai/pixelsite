@@ -403,7 +403,7 @@ Register now and aim for the BOOYAH!`,
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://forms.gle/placeholder-free-fire",
+      formLink: "https://docs.google.com/forms/d/e/1FAIpQLScxr6_oI9_C6QBlLsryELIl_eYGJA1NfgkJasGxAlBo2rUiHQ/viewform?usp=header",
     },
   },
 
