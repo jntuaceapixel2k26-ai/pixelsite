@@ -318,11 +318,11 @@ This competition encourages creativity, speed, and accuracy in coding and is per
     },
   },
 
-    ///// SQL Query Cracking /////
+    ///// Prompt 2Pixel /////
   {
-    id: "sql-query-cracking",
-    title: "SQL Query Cracking",
-    slug: "sql-query-cracking",
+    id: "prompt-event",
+    title: "Prompt 2Pixel",
+    slug: "prompt-event",
     category: "technical",
     description: "Master the art of database queries! Write complex SQL queries to solve real-world data problems. From basic SELECT to advanced joins and subqueries.",
     date: "March 27, 2026",
