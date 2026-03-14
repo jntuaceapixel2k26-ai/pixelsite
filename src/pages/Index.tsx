@@ -115,7 +115,7 @@ const Index = () => {
           <SectionTitle title="Get In Touch" subtitle="Have questions? Reach out to us!" />
           <div className="space-y-2 text-muted-foreground text-sm">
             <p>JNTUACEA, M.V. Nagar, Anantapur, AP – 515002</p>
-            <p>jntuaceapixel2k26@gmail.com | +91 7672005738</p>
+            <p>jntuaceapixel2k26@gmail.com | +91 7672005738 | +91 7330668287</p>
           </div>
           <Link
             to="/contact"
