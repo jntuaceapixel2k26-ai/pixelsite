@@ -58,9 +58,9 @@ const About = () => {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
                 {[
                   { value: "13+", label: "Events" },
-                  { value: "3", label: "Days" },
-                  { value: "₹1.5L+", label: "Prize Pool" },
-                  { value: "1000+", label: "Participants" },
+                  { value: "2", label: "Days" },
+                  { value: "₹50k+", label: "Prize Pool" },
+                  { value: "500+", label: "Participants" },
                 ].map((stat) => (
                   <div key={stat.label} className="bg-muted rounded-lg p-4">
                     <p className="font-display text-2xl font-bold text-gradient">{stat.value}</p>
