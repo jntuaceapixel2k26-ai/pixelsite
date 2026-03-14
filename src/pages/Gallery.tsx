@@ -17,6 +17,11 @@ import gallery13 from "@/assets/gallery-13.jpeg";
 import gallery14 from "@/assets/gallery-14.jpeg";
 import gallery15 from "@/assets/gallery-15.jpeg";
 import gallery16 from "@/assets/gallery-16.jpeg";
+import gallery17 from "@/assets/gallery-17.jpeg";
+import gallery18 from "@/assets/gallery-18.jpeg";
+import gallery19 from "@/assets/gallery-19.jpeg";
+import gallery20 from "@/assets/gallery-20.jpeg";
+import gallery21 from "@/assets/gallery-21.jpeg";
 
 const images = [
   { src: gallery1, alt: "img1" },
@@ -33,9 +38,15 @@ const images = [
   { src: gallery12, alt: "img12" },
   { src: gallery13, alt: "img13" },
   { src: gallery14, alt: "img14" },
-  { src: gallery15, alt: "img15" },
   { src: gallery16, alt: "img16" },
+  { src: gallery17, alt: "img17" },
+  { src: gallery18, alt: "img18" },
+  { src: gallery19, alt: "img19" },
+  { src: gallery20, alt: "img20" },
+  { src: gallery15, alt: "img15" },
+  { src: gallery21, alt: "img21" },
 ];
+
 
 const Gallery = () => {
   return (

@@ -47,18 +47,31 @@ const EventDetail = () => {
 
           {/* Event Banner */}
           <div className="bg-card border border-border rounded-lg p-5 sm:p-8 md:p-12 mb-8 bg-gradient-card">
-            <div className="mb-4 text-primary">
-              <Icon className="h-10 w-10 sm:h-14 sm:w-14" aria-hidden="true" />
+            <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 items-start">
+              <div className="flex-1 min-w-0">
+                <div className="mb-4 text-primary">
+                  <Icon className="h-10 w-10 sm:h-14 sm:w-14" aria-hidden="true" />
+                </div>
+                <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-primary/20 text-primary mb-4 uppercase tracking-wider">
+                  {event.category}
+                </span>
+                <h1 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-gradient mb-4 break-words leading-tight">
+                  {event.title}
+                </h1>
+                <p className="text-muted-foreground leading-relaxed">
+                  {event.description}
+                </p>
+              </div>
+              {event.poster && (
+                <div className="w-full lg:w-60 xl:w-72 shrink-0 self-center lg:self-start">
+                  <img
+                    src={event.poster}
+                    alt={`${event.title} poster`}
+                    className="w-full h-auto rounded-xl object-cover shadow-lg border border-border"
+                  />
+                </div>
+              )}
             </div>
-            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-primary/20 text-primary mb-4 uppercase tracking-wider">
-              {event.category}
-            </span>
-            <h1 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-gradient mb-4 break-words leading-tight">
-              {event.title}
-            </h1>
-            <p className="text-muted-foreground leading-relaxed max-w-2xl">
-              {event.description}
-            </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">

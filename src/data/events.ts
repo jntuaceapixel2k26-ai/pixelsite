@@ -23,20 +23,35 @@ import {
 
 // To use a per-event QR: add the image to src/assets/, import it here,
 // and assign it to that event's registration.qr field.
-import qrPaperPresentation from "@/assets/Mythresh-payment-qr.jpeg";
+import qrPaperPresentation from "@/assets/Mythresh-payment-qr.jpeg";//
 import qrCodeDebugging from "@/assets/Mythresh-payment-qr.jpeg";
-import qrFastFingers from "@/assets/Vaibhav-payment-qr.jpeg";
-import qrTechnicalQuiz from "@/assets/Mythresh-payment-qr.jpeg";
-import qrHackathon from "@/assets/Chethan-payment-qr.jpeg";
-import qrTimeLimitedCoding from "@/assets/Chethan-payment-qr.jpeg";
-import qrPromtEvent from "@/assets/Vaibhav-payment-qr.jpeg";
-import qrFreeFire from "@/assets/Chethan-payment-qr.jpeg";
-import qrPhotography from "@/assets/Hrishi-payment-qr.jpeg";
+import qrFastFingers from "@/assets/Vaibhav-payment-qr.jpeg";//
+import qrTechnicalQuiz from "@/assets/Mythresh-payment-qr.jpeg";//
+import qrHackathon from "@/assets/Chethan-payment-qr.jpeg";//
+import qrTimeLimitedCoding from "@/assets/Chethan-payment-qr.jpeg";//
+import qrPromtEvent from "@/assets/Vaibhav-payment-qr.jpeg";//
+import qrFreeFire from "@/assets/Chethan-payment-qr.jpeg";//
+import qrPhotography from "@/assets/Hrishi-payment-qr.jpeg";//
 import qrNonTechQuiz from "@/assets/Harsha-payment-qr.jpeg";
-import qrMemeCompetition from "@/assets/Hrishi-payment-qr.jpeg";
-import qrChess from "@/assets/Harsha-payment-qr.jpeg";
-import qrReelCompetition from "@/assets/Hrishi-payment-qr.jpeg";
-import qrBgmi from "@/assets/Harsha-payment-qr.jpeg";
+import qrMemeCompetition from "@/assets/Hrishi-payment-qr.jpeg";//
+import qrChess from "@/assets/Harsha-payment-qr.jpeg";//
+import qrReelCompetition from "@/assets/Hrishi-payment-qr.jpeg";//
+import qrBgmi from "@/assets/Harsha-payment-qr.jpeg";//
+
+// Poster images
+import posterPaper from "@/assets/posters/paper.jpeg";
+import posterFastFingers from "@/assets/posters/fastfingers.png";
+import posterBugBusters from "@/assets/posters/bugbusters.jpeg";
+import posterTechnicalQuiz from "@/assets/posters/techquiz.jpeg";
+import posterHackathon from "@/assets/posters/hackthon.jpeg";
+import posterCoding from "@/assets/posters/coding.jpeg";
+import posterPrompt from "@/assets/posters/prompt2pixel.png";
+import posterFreeFire from "@/assets/posters/freefire.jpeg";
+import posterPhotography from "@/assets/posters/photogrphy.jpeg";
+import posterMeme from "@/assets/posters/meme.jpeg";
+import posterChess from "@/assets/posters/chess.jpeg";
+import posterReel from "@/assets/posters/reel.jpeg";
+import posterBgmi from "@/assets/posters/bgmi.jpeg";
 
 export interface EventRegistration {
   qr: string;
@@ -57,6 +72,7 @@ export interface EventData {
   rules: string[];
   icon: IconType;
   ruleIcon: IconType;
+  poster?: string;
   coordinators?: string[];
   registration: EventRegistration;
 }
@@ -72,14 +88,14 @@ const rawEvents: EventData[] = [
     category: "technical",
     description:
       "The Technical Presentation Event is an intellectual and innovative platform where participants present their ideas, research, and knowledge on topics related to modern technology. Participants will prepare and present their topic using a PowerPoint presentation, explaining the concept, working principles, real-world applications, and future scope of the technology. This event promotes learning, creativity, and critical thinking while allowing participants to share their perspectives on how technology can shape the future.",
-    date: "March 20, 2026",
+    date: "March 23rd, 2026",
     time: "10:00 AM - 1:00 PM",
     venue: "Computer Science Department, JNTUACEA Campus",
     prize: "winners: ₹1700 | Runners: ₹800",
     rules: [
       ` TechSpark 2026:
  Present your innovative ideas and showcase your technical knowledge!`,
-      ` Pre-Register: 21th March 2026,Spot registrations are available
+      ` Pre-Register: 23rd March 2026,Spot registrations are available
 Pre-Registration Fee: ₹200 per team (1 member) | ₹300 per team (2 members) | ₹400 per team (3 or 4members)
  Winner Announcement: 24th March 2026
  Winner Selection: Based on how well participants impress the judges through explanation, clarity, and body language during the presentation
@@ -107,6 +123,7 @@ Pre-Registration Fee: ₹200 per team (1 member) | ₹300 per team (2 members) |
 
     icon: FaFileLines,
     ruleIcon: FaListCheck,
+    poster: posterPaper,
     registration: {
       qr: qrPaperPresentation,
       alerts: [
@@ -126,13 +143,14 @@ Pre-Registration Fee: ₹200 per team (1 member) | ₹300 per team (2 members) |
     category: "technical",
     description:
       "Put your typing skills to the ultimate test in the Fast Fingers competition! This exhilarating typing contest challenges participants to achieve the highest typing speed and accuracy. Compete individually to showcase your quick fingers and precision on the keyboard.",
-    date: "March 20, 2026",
+    date: "March 23rd, 2026",
     time: "10:00 AM - 1:00 PM",
     venue: "Computer Science Department, JNTUACEA Campus",
     prize: "1st Prize : ₹600 | Second Prize : ₹300",
     rules: [
       `Registration Details :
 Entry Fee : ₹ 100 per Participant`,
+`Pre-Register: 23rd March 2026,Spot registrations are available`,
       `Rules :
 
 1. Participants will type on a standard keyboard with no specialized tools or aids.
@@ -145,6 +163,7 @@ Entry Fee : ₹ 100 per Participant`,
     coordinators: ["J Nithin Kumar : 8019729262 ", "S Sai Sahana : 8978460229"],
     icon: FaKeyboard,
     ruleIcon: FaListCheck,
+    poster: posterFastFingers,
     registration: {
       qr: qrFastFingers,
       alerts: [
@@ -164,16 +183,17 @@ Entry Fee : ₹ 100 per Participant`,
     category: "technical",
     description:
       "Find and fix bugs in given code snippets across multiple programming languages. Test your debugging skills under pressure with tricky logical and syntax errors.",
-    date: "March 20, 2026",
+    date: "March 23rd, 2026",
     time: "2:00 PM - 4:00 PM",
     venue: "Computer Science Department, JNTUACEA Campus",
     prize: " 1st Prize: ₹1200 |  2nd Prize: ₹800",
     rules: [
       ` Bug Busters – Debugging Competition
 Test your debugging skills and win exciting prizes!`,
+`Pre-Register: 23rd March 2026,Spot registrations are available`,
       ` About the Event:
 Bug Busters is a technical debugging competition conducted as part of Pixel 2K26, where participants must identify and correct errors in C programming code snippets. The contest consists of 30 questions of different difficulty levels that test logical thinking and debugging ability.
- Registration Fee: ₹200
+ Pre-Registration Fee: ₹200
  Prizes:
  1st Prize: ₹1200
  2nd Prize: ₹800
@@ -199,6 +219,7 @@ Bug Busters is a technical debugging competition conducted as part of Pixel 2K26
     coordinators: ["Sree Sai - 8142017489", "B Harikha - 8688021066"],
     icon: FaBug,
     ruleIcon: FaTriangleExclamation,
+    poster: posterBugBusters,
     registration: {
       qr: qrCodeDebugging,
       alerts: [
@@ -219,11 +240,12 @@ Bug Busters is a technical debugging competition conducted as part of Pixel 2K26
     category: "technical",
     description:
       "Welcome to Code Quest, an exciting individual technical quiz challenge designed to test your knowledge, analytical thinking, and problem-solving skills in the field of Computer Science.",
-    date: "March 20, 2026",
+    date: "March 23rd, 2026",
     time: "10:00 AM - 12:30 PM",
     venue: "Computer Science Department, JNTUACEA Campus",
     prize: " 1st Prize: ₹1000 | 2nd Prize: ₹800",
     rules: [
+        `Pre-Register: 23rd March 2026,Spot registrations are available`,
       `About the Event:
 Welcome to Code Quest – The Ultimate Technical Quiz Challenge!
 This exciting event is designed to test your knowledge in programming, computer science fundamentals, emerging technologies, logical reasoning, and general tech awareness. Participants will compete in a dynamic quiz environment that challenges both their technical knowledge and problem-solving skills. Whether you are passionate about coding, curious about technology, or love solving challenging questions, this quiz is the perfect platform to showcase your skills.`,
@@ -264,6 +286,7 @@ Get ready to challenge your mind and embark on the Code Quest!`,
 
     icon: FaCircleQuestion,
     ruleIcon: FaCircleInfo,
+    poster: posterTechnicalQuiz,
     registration: {
       qr: qrTechnicalQuiz,
       alerts: [
@@ -285,13 +308,14 @@ Get ready to challenge your mind and embark on the Code Quest!`,
     category: "technical",
     description:
       "We are excited to announce a 12-Hour Hackathon designed to encourage creativity, innovation, and teamwork among developers and tech enthusiasts. Participants will work together to build innovative web solutions within a limited time frame.",
-    date: "March 20, 2026",
+    date: "March 21st, 2026",
     time: "10:00 AM (Day 1) - 10:00 AM (Day 2)",
     venue:
       "Online (with final presentations at JNTUA CEA, Department of Computer Science and Engineering)",
     prize: "₹3,499",
     rules: [
       `Pixel Hackathon 2K26 is a 12-hour coding challenge where developers collaborate to build innovative web solutions. The event encourages creativity, problem-solving, and teamwork while giving participants an opportunity to showcase their technical skills.`,
+      `Register: 21st March 2026`,
       `Event Details
 
 • Date: 22nd March 2026 
@@ -349,6 +373,7 @@ All participants who take part in the hackathon will receive participation certi
     coordinators: ["J Neharika - 7893153725", "S Sathwik - 9014941863"],
     icon: FaLaptopCode,
     ruleIcon: FaShieldHalved,
+    poster: posterHackathon,
     registration: {
       qr: qrHackathon,
       alerts: [
@@ -371,7 +396,7 @@ All participants who take part in the hackathon will receive participation certi
     category: "technical",
     description:
       "Competitive programming challenge with time constraints. Solve algorithmic problems of varying difficulty in the shortest time. Speed and accuracy both matter!",
-    date: "March 20, 2026",
+    date: "March 23rd, 2026",
     time: "10:00 AM - 1:00 PM",
     venue: "Computer Science Department, JNTUACEA Campus",
     prize:
@@ -417,6 +442,7 @@ Spot Registration  are available for Offline`,
 
     icon: FaStopwatch,
     ruleIcon: FaGavel,
+    poster: posterCoding,
     registration: {
       qr: qrTimeLimitedCoding,
       alerts: [
@@ -440,12 +466,13 @@ Spot Registration  are available for Offline`,
     category: "technical",
     description:
       "Prompt 2Pixel is an AI-based competition where participants use prompt engineering skills to generate creative images using Dreamstudio.ai. Write the best prompt, transform your ideas into visuals, and compete to create the most impressive AI-generated image.",
-    date: "March 20, 2026",
+    date: "March 23rd, 2026",
     time: "2:00 PM - 4:30 PM",
     venue: "Computer Lab 2, JNTUA Campus",
     prize: "₹500 (1st) | ₹300 (2nd)",
     rules: [
       `Prompt 2Pixel is an AI-based competition where participants use prompt engineering skills to generate creative images using Dreamstudio.ai. Write the best prompt, transform your ideas into visuals, and compete to create the most impressive AI-generated image.`,
+      `Register: 23rd March 2026,Spot registrations are available`,
       `Entry Fee : ₹100 per participant`,
       `Prize : ₹500 (1st) , ₹300 (2nd).`,
 
@@ -458,6 +485,7 @@ Spot Registration  are available for Offline`,
     ],
     icon: FaWandMagicSparkles,
     ruleIcon: FaListCheck,
+    poster: posterPrompt,
     registration: {
       qr: qrPromtEvent,
       alerts: [
@@ -513,6 +541,7 @@ Register now and aim for the BOOYAH!`,
     coordinators: ["S Apsar - 9959791329", "N Karthik - 9014088846"],
     icon: FaFire,
     ruleIcon: FaShieldHalved,
+    poster: posterFreeFire,
     registration: {
       qr: qrFreeFire,
       alerts: [
@@ -559,6 +588,7 @@ Register now and aim for the BOOYAH!`,
     ],
     icon: FaCamera,
     ruleIcon: FaCircleInfo,
+    poster: posterPhotography,
     registration: {
       qr: qrPhotography,
       alerts: [
@@ -676,6 +706,7 @@ Entry Fee: ₹50 (Online payment only)
     ],
     icon: FaFaceLaughBeam,
     ruleIcon: FaTriangleExclamation,
+    poster: posterMeme,
     registration: {
       qr: qrMemeCompetition,
       alerts: [
@@ -734,6 +765,7 @@ Chess Arena is an exciting online chess competition organized as part of Pixel2K
     ],
     icon: FaChessKnight,
     ruleIcon: FaGavel,
+    poster: posterChess,
     registration: {
       qr: qrChess,
       alerts: [
@@ -787,6 +819,7 @@ Chess Arena is an exciting online chess competition organized as part of Pixel2K
     coordinators: ["Geetha - 6304821550\n", "Gowri Shankar - 7989009215"],
     icon: FaVideo,
     ruleIcon: FaListCheck,
+    poster: posterReel,
     registration: {
       qr: qrReelCompetition,
       alerts: [
@@ -826,6 +859,7 @@ Chess Arena is an exciting online chess competition organized as part of Pixel2K
     coordinators: ["Rakesh - 9014142283", "Rana Sadiq - 939854848"],
     icon: FaGamepad,
     ruleIcon: FaShieldHalved,
+    poster: posterBgmi,
     registration: {
       qr: qrBgmi,
       alerts: [
