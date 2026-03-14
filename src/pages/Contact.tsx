@@ -26,12 +26,12 @@ const Contact = () => {
                 {
                   icon: <Phone size={20} />,
                   title: "Phone",
-                  lines: ["+91 7672005738", "+91 xxxxxxxxxx"],
+                  lines: ["+91 7672005738", "+91 7330668287"],
                 },
                 {
                   icon: <Mail size={20} />,
                   title: "Email",
-                  lines: ["jntuaceapixel2k26@gmail.com", "xxxxxxxxx@xxxxx.xxxxx"],
+                  lines: ["jntuaceapixel2k26@gmail.com"],
                 },
               ].map((item, i) => (
                 <div key={i} className="bg-card border border-border rounded-lg p-6 bg-gradient-card">

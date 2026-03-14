@@ -12,7 +12,7 @@ const About = () => {
           <SectionTitle title="About Pixel 2026" />
 
           <div className="rounded-lg overflow-hidden border border-border mb-12">
-            <img src={heroBg} alt="JNTUA Campus" className="w-full h-64 md:h-80 object-cover" />
+            <img src={heroBg} alt="JNTUACEA Campus" className="w-full h-64 md:h-80 object-cover" />
           </div>
 
           <div className="space-y-8 text-muted-foreground leading-relaxed">
@@ -20,7 +20,7 @@ const About = () => {
               <h3 className="font-display text-xl font-bold text-foreground mb-4">About Pixel Fest</h3>
               <p>
                 Pixel 2026 is the annual technical and cultural festival organized by the students of 
-                Jawaharlal Nehru Technological University Anantapur (JNTUA). Now in its latest edition, 
+                JNTUA College of Engineering. Now in its latest edition, 
                 Pixel has grown to become one of the most anticipated college festivals in Andhra Pradesh.
               </p>
               <p className="mt-4">
@@ -34,15 +34,15 @@ const About = () => {
             <div className="bg-card border border-border rounded-lg p-6 md:p-8 bg-gradient-card">
               <h3 className="font-display text-xl font-bold text-foreground mb-4">About JNTUA</h3>
               <p>
-                Jawaharlal Nehru Technological University Anantapur (JNTUA) is one of the premier 
-                technological universities in Andhra Pradesh, India. Established in 2008, JNTUA is 
+                JNTUA College of Engineering is one of the premier 
+                technological institutions in Andhra Pradesh, India. Established in 2008, the college is 
                 located in Mokshagundam Visvesvaraya Nagar, Anantapur, and is named after India's first 
                 Prime Minister, Pandit Jawaharlal Nehru.
               </p>
               <p className="mt-4">
-                The university offers undergraduate, postgraduate, and doctoral programs in various 
+                The college offers undergraduate, postgraduate, and doctoral programs in various 
                 branches of engineering, technology, and allied sciences. With a commitment to academic 
-                excellence and holistic development, JNTUA continues to shape the future of engineering 
+                excellence and holistic development, JNTUACEA continues to shape the future of engineering 
                 education in the region.
               </p>
               <div className="mt-6 p-4 bg-muted rounded-lg">
