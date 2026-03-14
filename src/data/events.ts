@@ -1,18 +1,19 @@
 // To use a per-event QR: add the image to src/assets/, import it here,
 // and assign it to that event's registration.qr field.
-import qrPaperPresentation from "@/assets/payment-qr.png";
-import qrCodeDebugging from "@/assets/payment-qr.png";
-import qrTechnicalQuiz from "@/assets/payment-qr.png";
-import qrHackathon from "@/assets/payment-qr.png";
-import qrTimeLimitedCoding from "@/assets/payment-qr.png";
-import qrSqlQueryCracking from "@/assets/payment-qr.png";
-import qrFreeFire from "@/assets/payment-qr.png";
-import qrPhotography from "@/assets/payment-qr.png";
-import qrNonTechQuiz from "@/assets/payment-qr.png";
-import qrMemeCompetition from "@/assets/payment-qr.png";
-import qrChess from "@/assets/payment-qr.png";
-import qrReelCompetition from "@/assets/payment-qr.png";
-import qrBgmi from "@/assets/payment-qr.png";
+import qrPaperPresentation from "@/assets/Mythresh-paymentqr.jpeg"; //1
+import qrCodeDebugging from "@/assets/Mythresh-paymentqr.jpeg"; //2
+import qrFastFingers from "@/assets/Vaibhav-paymentqr.jpeg"; //3
+import qrTechnicalQuiz from "@/assets/Mythresh-paymentqr.jpeg"; //4
+import qrHackathon from "@/assets/Chethan-paymentqr.jpeg"; //5
+import qrTimeLimitedCoding from "@/assets/Chethan-paymentqr.jpeg"; //6
+import qrPromtEvent from "@/assets/Vaibhav-paymentqr.jpeg"; //7
+import qrFreeFire from "@/assets/Chethan-paymentqr.jpeg"; //8
+import qrPhotography from "@/assets/Hrishi-paymentqr.jpeg";  //9
+import qrNonTechQuiz from "@/assets/Harsha-paymentqr.jpeg";  //10
+import qrMemeCompetition from "@/assets/Hrishi-paymentqr.jpeg"; //11
+import qrChess from "@/assets/Harsha-paymentqr.jpeg"; //12
+import qrReelCompetition from "@/assets/Hrishi-paymentqr.jpeg"; //13
+import qrBgmi from "@/assets/Harsha-paymentqr.jpeg"; //14
 
 export interface EventRegistration {
   qr: string;
@@ -102,7 +103,7 @@ Entry Fee : ₹ 100 per Participant🤑`,
     ],
     icon: "📄",
     registration: {
-      qr: qrPaperPresentation,
+      qr: qrFastFingers,
       alerts: [
         "Registration fee: ₹100 per participant",
         "Must submit the payment screenshot and UTR/transaction ID",
@@ -338,7 +339,7 @@ This competition encourages creativity, speed, and accuracy in coding and is per
     ],
     icon: "🗃️",
     registration: {
-      qr: qrSqlQueryCracking,
+      qr: qrPromtEvent,
       alerts: [
         "Registration fee: ₹100 per participant",
         "Individual participation only",

@@ -29,7 +29,7 @@ const RegistrationDetails = ({ eventTitle, registration }: RegistrationDetailsPr
         <img
           src={registration.qr}
           alt={`Payment QR for ${eventTitle}`}
-          className="w-44 h-44 mx-auto rounded-lg border border-border object-cover"
+          className="w-40 h-40 sm:w-40 sm:h-40 mx-auto rounded-lg border border-border object-contain"
         />
       </div>
 
