@@ -1,19 +1,19 @@
 // To use a per-event QR: add the image to src/assets/, import it here,
 // and assign it to that event's registration.qr field.
-import qrPaperPresentation from "@/assets/Mythresh-paymentqr.jpeg";  //1
-import qrCodeDebugging from "@/assets/Mythresh-paymentqr.jpeg";  //2
-import qrFastFingers from "@/assets/Vaibhav-paymentqr.jpeg";  //3
-import qrTechnicalQuiz from "@/assets/Mythresh-paymentqr.jpeg";  //4
-import qrHackathon from "@/assets/Chethan-paymentqr.jpeg";  //5
-import qrTimeLimitedCoding from "@/assets/Chethan-paymentqr.jpeg";  //6
-import qrPromtEvent from "@/assets/Vaibhav-paymentqr.jpeg";  //7
-import qrFreeFire from "@/assets/Chethan-paymentqr.jpeg";  //8
-import qrPhotography from "@/assets/Hrishi-paymentqr.jpeg";  //9
-import qrNonTechQuiz from "@/assets/Harsha-paymentqr.jpeg";  //10
-import qrMemeCompetition from "@/assets/Hrishi-paymentqr.jpeg"; //11
-import qrChess from "@/assets/Harsha-paymentqr.jpeg"; //12
-import qrReelCompetition from "@/assets/Hrishi-paymentqr.jpeg"; //13
-import qrBgmi from "@/assets/Harsha-paymentqr.jpeg"; //14
+import qrPaperPresentation from "@/assets/Mythresh-payment-qr.jpeg";  //1
+import qrCodeDebugging from "@/assets/Mythresh-payment-qr.jpeg";  //2
+import qrFastFingers from "@/assets/Vaibhav-payment-qr.jpeg";  //3
+import qrTechnicalQuiz from "@/assets/Mythresh-payment-qr.jpeg";  //4
+import qrHackathon from "@/assets/Chethan-payment-qr.jpeg";  //5
+import qrTimeLimitedCoding from "@/assets/Chethan-payment-qr.jpeg";  //6
+import qrPromtEvent from "@/assets/Vaibhav-payment-qr.jpeg";  //7
+import qrFreeFire from "@/assets/Chethan-payment-qr.jpeg";  //8
+import qrPhotography from "@/assets/Hrishi-payment-qr.jpeg";  //9
+import qrNonTechQuiz from "@/assets/Harsha-payment-qr.jpeg";  //10
+import qrMemeCompetition from "@/assets/Hrishi-payment-qr.jpeg"; //11
+import qrChess from "@/assets/Harsha-payment-qr.jpeg"; //12
+import qrReelCompetition from "@/assets/Hrishi-payment-qr.jpeg"; //13
+import qrBgmi from "@/assets/Harsha-payment-qr.jpeg"; //14
 
 export interface EventRegistration {
   qr: string;
