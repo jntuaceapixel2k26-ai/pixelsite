@@ -1,20 +1,20 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SectionTitle from "@/components/SectionTitle";
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
-import gallery5 from "@/assets/gallery-5.jpg";
-import gallery6 from "@/assets/gallery-6.jpg";
+import gallery1 from "@/assets/gallery-1.jpeg";
+import gallery2 from "@/assets/gallery-2.jpeg";
+import gallery3 from "@/assets/gallery-3.jpeg";
+import gallery4 from "@/assets/gallery-4.jpeg";
+// import gallery5 from "@/assets/gallery-5.jpeg";
+// import gallery6 from "@/assets/gallery-6.jpeg";
 
 const images = [
-  { src: gallery1, alt: "Cultural performance at Pixel Fest" },
-  { src: gallery2, alt: "Hackathon in progress" },
-  { src: gallery3, alt: "Music band performing" },
-  { src: gallery4, alt: "Robotics exhibition" },
-  { src: gallery5, alt: "Winners celebration" },
-  { src: gallery6, alt: "Gaming tournament" },
+  { src: gallery1, alt: "img1" },
+  { src: gallery2, alt: "img2" },
+  { src: gallery3, alt: "img3" },
+  { src: gallery4, alt: "img4" },
+  // { src: gallery5, alt: "img5" },
+  // { src: gallery6, alt: "img6" },
 ];
 
 const Gallery = () => {

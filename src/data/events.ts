@@ -71,6 +71,47 @@ export const events: EventData[] = [
     },
   },
 
+
+  {
+    id: "fast-fingers",
+    title: "Fast Fingers",
+    slug: "fast-fingers",
+    category: "technical",
+    description:
+      "Put your typing skills to the ultimate test in the Fast Fingers competition! This exhilarating typing contest challenges participants to achieve the highest typing speed and accuracy. Compete individually to showcase your quick fingers and precision on the keyboard.",
+    date: "March 20, 2026",
+    time: "10:00 AM - 1:00 PM",
+    venue: "Computer Science Department, JNTUACEA Campus",
+    prize: "1st Prize : ₹600 | Second Prize : ₹300",
+    rules: [
+      `Registration Details :
+Entry Fee : ₹ 100 per Participant🤑`,
+      `Rules 🚥:
+
+1. Participants will type on a standard keyboard with no specialized tools or aids.🚫
+2. Typing passages and tasks will be provided either on any typing website or any other platform like 'Typing Master',... based on availability.
+3. Contestants must type the passages🔡🔤🔣🔠 as quickly🏃🏻🏃🏻‍♀️ and accurately✅ as possible.
+4. The event is an individual competition🧍🏻‍♂️,no teams allowed.🚫
+5. No external resources, references, or notes may be used.🚫
+6. Scores will be based on typing speed, accuracy, and completion time.`,
+    ],
+    coordinators: [
+      "J Nithin Kumar : 8019729262 ",
+      "S Sai Sahana : 8978460229",
+
+    ],
+    icon: "📄",
+    registration: {
+      qr: qrPaperPresentation,
+      alerts: [
+        "Registration fee: ₹100 per participant",
+        "Must submit the payment screenshot and UTR/transaction ID",
+        "If any fraud is found, registration will be cancelled and payment will not be refunded",
+      ],
+      formLink: "https://forms.gle/FMb8rEY8vtQ3fETA8",
+    },
+  },
+
   ///// Debugging Challenge /////
   {
     id: "bug-busters",
@@ -221,28 +262,59 @@ This hackathon provides a great opportunity for developers to showcase their cre
     slug: "time-limited-coding",
     category: "technical",
     description: "Competitive programming challenge with time constraints. Solve algorithmic problems of varying difficulty in the shortest time. Speed and accuracy both matter!",
-    date: "March 27, 2026",
+    date: "March 20, 2026",
     time: "10:00 AM - 1:00 PM",
-    venue: "Computer Lab 1, JNTUA Campus",
-    prize: "₹8,000 (1st) | ₹5,000 (2nd) | ₹3,000 (3rd)",
+    venue: "Online - Coding Platform( Hacker Rank )",
+    prize: "> Online - (1st) rs. 700 | (2nd) rs. 300 > Offline - (1st) rs. 1000 | (2nd) rs. 700",
+    coordinators: [
+      "G samatha - 9398138395",
+      "M rana sadiq - 9398548481",
+    ],
     rules: [
-      "Individual participation only",
-      "Languages: C, C++, Java, Python",
-      "5-7 problems in 3 hours",
-      "Online judge for evaluation",
-      "Partial scoring available",
+      `💻 Code Rush – Coding Competition | PIXEL 2K26
+Think fast. Code faster. Compete with the best!
+
+🚀 Code Rush is an exciting coding competition designed to test participants’ logical thinking, programming skills, and problem-solving abilities. In this contest, participants will solve a set of programming challenges divided into three difficulty levels: Easy, Medium, and Hard.
+
+Each level will challenge your ability to analyze problems, write efficient code, and solve them within a limited time. Participants will compete with other coders and try to solve as many problems as possible to climb the leaderboard.
+
+This competition encourages creativity, speed, and accuracy in coding and is perfect for students who love programming and want to challenge their skills in a competitive environment.
+
+📅 Event Date: 24th March 2026
+📍 Venue: JNTUA College of Engineering, Anantapur
+🧑‍💻 Participation: Individual
+📝 Spot Registration: Available
+
+🏆 Why Participate?
+• Test your coding and problem-solving skills
+• Compete with talented programmers
+• Gain experience in real coding contests
+• Win exciting prizes and recognition
+
+📌 Competition Format:
+1️⃣ Participants will solve coding problems during the contest
+2️⃣ Problems will be divided into Easy, Medium, and Hard levels
+3️⃣ Points will be awarded based on correct solutions and difficulty level
+4️⃣ Participants with the highest score will rank on the leaderboard
+
+⚠️ Rules:
+• Individual participation only
+• Participants must follow fair coding practices
+• Any form of plagiarism or cheating will lead to disqualification
+• Decisions by the organizers will be final`,
     ],
     icon: "⏱️",
     registration: {
       qr: qrTimeLimitedCoding,
       alerts: [
-        "Registration fee: ₹100 per participant",
+        "Registration fee:  Pre - Registration - ₹ 150",
+        "Spot Registration  are available for Offline",
         "Individual participation only",
         "Online judge will be used — no external resources allowed",
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://forms.gle/placeholder-time-limited-coding",
+      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSe6r06fqmKjo1P8LHbWVFpd-p_RR-0Ho-inoznlkvGvLSoNGQ/viewform?usp=header",
     },
   },
 
@@ -276,6 +348,7 @@ This hackathon provides a great opportunity for developers to showcase their cre
       ],
       formLink: "https://forms.gle/placeholder-sql-query-cracking",
     },
+    
   },
   ///////////////Non-Technical Events////////////////
 

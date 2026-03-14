@@ -5,9 +5,9 @@ import SectionTitle from "@/components/SectionTitle";
 import EventCard from "@/components/EventCard";
 import { technicalEvents, nonTechnicalEvents } from "@/data/events";
 import heroBg from "@/assets/hero-bg.jpg";
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
+import gallery1 from "@/assets/gallery-1.jpeg";
+import gallery2 from "@/assets/gallery-2.jpeg";
+import gallery3 from "@/assets/gallery-3.jpeg";
 import pixelLogo from "@/assets/pixel-logo.png";
 
 const Index = () => {
