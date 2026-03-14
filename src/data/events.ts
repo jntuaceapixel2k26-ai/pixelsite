@@ -252,7 +252,7 @@ This hackathon provides a great opportunity for developers to showcase their cre
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
-      formLink: "https://forms.gle/placeholder-hackathon",
+      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSeT_A1uPL9pUjeqYLHTKFrHuhgaTXBDWDtf_dbhTO7ONAICqw/viewform?usp=header",
     },
   },
 
