@@ -160,7 +160,7 @@ Entry Fee : ₹ 100 per Participant`,
 5. No external resources, references, or notes may be used.
 6. Scores will be based on typing speed, accuracy, and completion time.`,
     ],
-    coordinators: ["J Nithin Kumar : 8019729262 ", "S Sai Sahana : 8978460229"],
+    coordinators: ["J Nithin Kumar : 8019729262 ", "S Sai Sahana : 8978460229", "K Tarun : 6281099367", "MVV Chandana : 7893381835"],
     icon: FaKeyboard,
     ruleIcon: FaListCheck,
     poster: posterFastFingers,
@@ -470,7 +470,7 @@ Spot Registration  are available for Offline`,
     time: "2:00 PM - 4:30 PM",
     venue: "Computer Lab 2, JNTUA Campus",
     prize: "₹500 (1st) | ₹300 (2nd)",
-    coordinators: ["M.Sayeed : +91 93477 75813", "R.C Usha : +91 95534 13096"],
+    coordinators: ["M Sayeed : 9347775813", "R C Usha : 9553413096", "D Pavan Kalyan : 8919944203", "S Meera Jasmine : 9392403500"],
     rules: [
       `Prompt 2Pixel is an AI-based competition where participants use prompt engineering skills to generate creative images using Dreamstudio.ai. Write the best prompt, transform your ideas into visuals, and compete to create the most impressive AI-generated image.`,
       `Register: 23rd March 2026,Spot registrations are available`,
@@ -526,7 +526,7 @@ Entry Fee: ₹50 per player
 Winner Prize: ₹300
 Highest Kills Prize: ₹200`,
       `SQUAD MODE
-Entry Fee: ₹200 per team (2-4 players allowed)
+Entry Fee: ₹160 per team (2-4 players allowed)
 Winner Prize: ₹800
 Runner-Up Prize: ₹400
 Prize pool may increase if more teams register.`,
@@ -546,7 +546,7 @@ Register now and aim for the BOOYAH!`,
     registration: {
       qr: qrFreeFire,
       alerts: [
-        "Entry fee: Team ₹200 per team (2-4 players), Solo Mode ₹50 per player",
+        "Entry fee: Team ₹160 per team (2-4 players), Solo Mode ₹50 per player",
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
