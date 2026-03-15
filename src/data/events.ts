@@ -642,6 +642,7 @@ Register now and aim for the BOOYAH!`,
     ],
     icon: FaBrain,
     ruleIcon: FaCircleInfo,
+    poster: posterNonTechQuiz,
     registration: {
       qr: qrNonTechQuiz,
       alerts: [
