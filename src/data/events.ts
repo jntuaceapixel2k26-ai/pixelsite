@@ -52,6 +52,7 @@ import posterMeme from "@/assets/posters/meme.jpeg";
 import posterChess from "@/assets/posters/chess.jpeg";
 import posterReel from "@/assets/posters/reel.jpeg";
 import posterBgmi from "@/assets/posters/bgmi.jpeg";
+import posterNonTechQuiz from "@/assets/posters/nontechquiz.jpeg";
 
 export interface EventRegistration {
   qr: string;
@@ -526,7 +527,7 @@ Entry Fee: ₹50 per player
 Winner Prize: ₹300
 Highest Kills Prize: ₹200`,
       `SQUAD MODE
-Entry Fee: ₹200 per team (2-4 players allowed)
+Entry Fee: ₹160 per team (2-4 players allowed)
 Winner Prize: ₹800
 Runner-Up Prize: ₹400
 Prize pool may increase if more teams register.`,
