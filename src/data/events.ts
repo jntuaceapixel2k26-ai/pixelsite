@@ -23,19 +23,19 @@ import {
 
 // To use a per-event QR: add the image to src/assets/, import it here,
 // and assign it to that event's registration.qr field.
-import qrPaperPresentation from "@/assets/Chethan-1.jpeg";//
-import qrCodeDebugging from "@/assets/Chethan-1.jpeg";
+import qrPaperPresentation from "@/assets/chethan-2.jpeg";//
+import qrCodeDebugging from "@/assets/Hrishi.png";
 import qrFastFingers from "@/assets/rakesh.jpeg";//
 import qrTechnicalQuiz from "@/assets/Chethan-1.jpeg";//
 import qrHackathon from "@/assets/chethan-2.jpeg";//
-import qrTimeLimitedCoding from "@/assets/chethan-2.jpeg";//
+import qrTimeLimitedCoding from "@/assets/Chethan-1.jpeg";//
 import qrPromtEvent from "@/assets/rakesh.jpeg";//
 import qrFreeFire from "@/assets/chethan-2.jpeg";//
 import qrPhotography from "@/assets/Hrishi.png";//
 import qrNonTechQuiz from "@/assets/harsha-1.jpeg";
 import qrMemeCompetition from "@/assets/Hrishi.png";//
 import qrChess from "@/assets/harsha-1.jpeg";//
-import qrReelCompetition from "@/assets/Hrishi.png";//
+import qrReelCompetition from "@/assets/Chethan-1.jpeg";//
 import qrBgmi from "@/assets/harsha-1.jpeg";//
 
 // Poster images
