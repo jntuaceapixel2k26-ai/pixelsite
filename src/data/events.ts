@@ -120,7 +120,7 @@ Pre-Registration Fee: ₹200 per team (1 member) | ₹300 per team (2 members) |
       ` Judges' decision will be final
  Participate now and showcase your technical creativity!`,
     ],
-    coordinators: ["Hari Krishna : 6304069520 ", "B Vyshnavi : 9347464897 "],
+    coordinators: ["Hari Krishna : 6304069520 ", "B Vyshnavi : 9347464897 ", "C Joshitha : 7989978138"],
 
     icon: FaFileLines,
     ruleIcon: FaListCheck,
@@ -161,7 +161,7 @@ Entry Fee : ₹ 100 per Participant`,
 5. No external resources, references, or notes may be used.
 6. Scores will be based on typing speed, accuracy, and completion time.`,
     ],
-    coordinators: ["J Nithin Kumar : 8019729262 ", "S Sai Sahana : 8978460229"],
+    coordinators: ["J Nithin Kumar : 8019729262 ", "S Sai Sahana : 8978460229", "K Tarun : 6281099367", "MVV Chandana : 7893381835"],
     icon: FaKeyboard,
     ruleIcon: FaListCheck,
     poster: posterFastFingers,
@@ -471,7 +471,7 @@ Spot Registration  are available for Offline`,
     time: "2:00 PM - 4:30 PM",
     venue: "Computer Lab 2, JNTUA Campus",
     prize: "₹500 (1st) | ₹300 (2nd)",
-    coordinators: ["M.Sayeed : +91 93477 75813", "R.C Usha : +91 95534 13096"],
+    coordinators: ["M Sayeed : 9347775813", "R C Usha : 9553413096", "D Pavan Kalyan : 8919944203", "S Meera Jasmine : 9392403500"],
     rules: [
       `Prompt 2Pixel is an AI-based competition where participants use prompt engineering skills to generate creative images using Dreamstudio.ai. Write the best prompt, transform your ideas into visuals, and compete to create the most impressive AI-generated image.`,
       `Register: 23rd March 2026,Spot registrations are available`,
@@ -547,7 +547,7 @@ Register now and aim for the BOOYAH!`,
     registration: {
       qr: qrFreeFire,
       alerts: [
-        "Entry fee: Team ₹200 per team (2-4 players), Solo Mode ₹50 per player",
+        "Entry fee: Team ₹160 per team (2-4 players), Solo Mode ₹50 per player",
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
@@ -792,14 +792,14 @@ Chess Arena is an exciting online chess competition organized as part of Pixel2K
     date: "March 20, 2026",
     time: "Submit by 6:00 PM, March 27",
     venue: "Online Submission + JNTUA Campus",
-    prize: "Winning Prize: ₹400",
+    prize: "Winning Prize: ₹350",
     rules: [
       `Show your creativity and win exciting prizes!`,
       ` Last Date to Register: 20th March 2026
  Result Announcement: 22nd March 2026
  Winner Selection: Based on the highest number of likes on our Instagram post
  Entry Fee: ₹50 (Online payment only)
- Winning Prize: ₹400`,
+ Winning Prize: ₹350`,
       ` How to Participate:
 1. Pay the registration fee ₹50 online
 2. Create a reel (maximum 30 seconds) based on your creativity
@@ -818,7 +818,7 @@ Chess Arena is an exciting online chess competition organized as part of Pixel2K
 • Last date for submission is 20th March 2026
  Participate now and showcase your creativity!`,
     ],
-    coordinators: ["Geetha - 6304821550\n", "Gowri Shankar - 7989009215"],
+    coordinators: ["Geetha - 6304821550\n", "Gowri Shankar - 7989009215", "D Aparanji : 8317559716"],
     icon: FaVideo,
     ruleIcon: FaListCheck,
     poster: posterReel,
