@@ -23,20 +23,20 @@ import {
 
 // To use a per-event QR: add the image to src/assets/, import it here,
 // and assign it to that event's registration.qr field.
-import qrPaperPresentation from "@/assets/Mythresh-payment-qr.jpeg";//
-import qrCodeDebugging from "@/assets/Mythresh-payment-qr.jpeg";
-import qrFastFingers from "@/assets/Vaibhav-payment-qr.jpeg";//
-import qrTechnicalQuiz from "@/assets/Mythresh-payment-qr.jpeg";//
-import qrHackathon from "@/assets/Chethan-payment-qr.jpeg";//
-import qrTimeLimitedCoding from "@/assets/Chethan-payment-qr.jpeg";//
-import qrPromtEvent from "@/assets/Vaibhav-payment-qr.jpeg";//
-import qrFreeFire from "@/assets/Chethan-payment-qr.jpeg";//
-import qrPhotography from "@/assets/Hrishi-payment-qr.jpeg";//
-import qrNonTechQuiz from "@/assets/Harsha-payment-qr.jpeg";
-import qrMemeCompetition from "@/assets/Hrishi-payment-qr.jpeg";//
-import qrChess from "@/assets/Harsha-payment-qr.jpeg";//
-import qrReelCompetition from "@/assets/Hrishi-payment-qr.jpeg";//
-import qrBgmi from "@/assets/Harsha-payment-qr.jpeg";//
+import qrPaperPresentation from "@/assets/Chethan-1.jpeg";//
+import qrCodeDebugging from "@/assets/Chethan-1.jpeg";
+import qrFastFingers from "@/assets/rakesh.jpeg";//
+import qrTechnicalQuiz from "@/assets/Chethan-1.jpeg";//
+import qrHackathon from "@/assets/chethan-2.jpeg";//
+import qrTimeLimitedCoding from "@/assets/chethan-2.jpeg";//
+import qrPromtEvent from "@/assets/rakesh.jpeg";//
+import qrFreeFire from "@/assets/chethan-2.jpeg";//
+import qrPhotography from "@/assets/Hrishi.png";//
+import qrNonTechQuiz from "@/assets/harsha-1.jpeg";
+import qrMemeCompetition from "@/assets/Hrishi.png";//
+import qrChess from "@/assets/harsha-1.jpeg";//
+import qrReelCompetition from "@/assets/Hrishi.png";//
+import qrBgmi from "@/assets/harsha-1.jpeg";//
 
 // Poster images
 import posterPaper from "@/assets/posters/paper.jpeg";
