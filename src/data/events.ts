@@ -119,7 +119,7 @@ Pre-Registration Fee: ₹200 per team (1 member) | ₹300 per team (2 members) |
       ` Judges' decision will be final
  Participate now and showcase your technical creativity!`,
     ],
-    coordinators: ["Hari Krishna : 6304069520 ", "B Vyshnavi : 9347464897 "],
+    coordinators: ["Hari Krishna : 6304069520 ", "B Vyshnavi : 9347464897 ", "C Joshitha : 7989978138"],
 
     icon: FaFileLines,
     ruleIcon: FaListCheck,
@@ -817,7 +817,7 @@ Chess Arena is an exciting online chess competition organized as part of Pixel2K
 • Last date for submission is 20th March 2026
  Participate now and showcase your creativity!`,
     ],
-    coordinators: ["Geetha - 6304821550\n", "Gowri Shankar - 7989009215"],
+    coordinators: ["Geetha - 6304821550\n", "Gowri Shankar - 7989009215", "D Aparanji : 8317559716"],
     icon: FaVideo,
     ruleIcon: FaListCheck,
     poster: posterReel,
