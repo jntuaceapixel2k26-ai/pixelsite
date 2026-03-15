@@ -32,7 +32,7 @@ const images = [
   { src: gallery6, alt: "img6" },
   { src: gallery7, alt: "img7" },
   { src: gallery8, alt: "img8" },
-  //{ src: gallery9, alt: "img9" },
+  { src: gallery9, alt: "img9" },
   { src: gallery10, alt: "img10" },
   { src: gallery11, alt: "img11" },
   { src: gallery12, alt: "img12" },
