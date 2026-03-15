@@ -9,7 +9,7 @@ import gallery5 from "@/assets/gallery-5.jpeg";
 import gallery6 from "@/assets/gallery-6.jpeg";
 import gallery7 from "@/assets/gallery-7.jpeg";
 import gallery8 from "@/assets/gallery-8.jpeg";
-//import gallery9 from "@/assets/gallery-9.jpeg";
+import gallery9 from "@/assets/gallery-9.jpeg";
 import gallery10 from "@/assets/gallery-10.jpeg"; 
 import gallery11 from "@/assets/gallery-11.jpeg";
 import gallery12 from "@/assets/gallery-12.jpeg";
