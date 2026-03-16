@@ -438,7 +438,8 @@ Spot Registration  are available for Offline`,
 • Individual participation only
 • Participants must follow fair coding practices
 • Any form of plagiarism or cheating will lead to disqualification
-• Decisions by the organizers will be final`,
+• Decisions by the organizers will be final
+• Email ID ( should be the same as your hackerrank account email)`,
     ],
 
     icon: FaStopwatch,
@@ -450,6 +451,7 @@ Spot Registration  are available for Offline`,
         "Registration fee:  Pre - Registration - ₹ 150",
         "Spot Registration  are available for Offline",
         "Individual participation only",
+        "Email ID ( should be the same as your hackerrank account email)",
         "Online judge will be used — no external resources allowed",
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
