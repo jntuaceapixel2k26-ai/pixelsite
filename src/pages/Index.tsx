@@ -9,6 +9,7 @@ import gallery1 from "@/assets/gallery-1.jpeg";
 import gallery2 from "@/assets/gallery-2.jpeg";
 import gallery3 from "@/assets/gallery-3.jpeg";
 import pixelLogo from "@/assets/pixel-logo.png";
+import pixelBoucher from "@/assets/posters/pixel-boucher.jpg";
 
 const Index = () => {
   return (
@@ -48,6 +49,14 @@ const Index = () => {
             creativity, and the spirit of competition. With 13+ events spanning technology, gaming, arts, and intellect — there's 
             something for everyone.
           </p>
+          <div className="mt-8 rounded-lg overflow-hidden border border-border bg-card">
+            <img
+              src={pixelBoucher}
+              alt="Pixel Fest brochure"
+              className="w-full h-auto object-cover"
+              loading="lazy"
+            />
+          </div>
         </div>
       </section>
 

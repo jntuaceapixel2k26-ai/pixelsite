@@ -310,13 +310,14 @@ Get ready to challenge your mind and embark on the Code Quest!`,
     description:
       "We are excited to announce a 12-Hour Hackathon designed to encourage creativity, innovation, and teamwork among developers and tech enthusiasts. Participants will work together to build innovative web solutions within a limited time frame.",
     date: "March 21st, 2026",
-    time: "10:00 AM (Day 1) - 10:00 AM (Day 2)",
+    time: "10:00 AM - 10:00 PM",
     venue:
-      "Online (with final presentations at JNTUA CEA, Department of Computer Science and Engineering)",
+      "Online (with final presentations at JNTUACEA, Department of Computer Science and Engineering)",
     prize: "₹3,499",
     rules: [
-      `Pixel Hackathon 2K26 is a 12-hour coding challenge where developers collaborate to build innovative web solutions. The event encourages creativity, problem-solving, and teamwork while giving participants an opportunity to showcase their technical skills.`,
+      `Pixel Hackathon 2K26 is a 12-hour coding challenge where developers collaborate to build innovative web solutions. The event encourages creativity, problem-solving, and teamwork while giving participants an opportunity to showcase their technical skills`,
       `Register: 21st March 2026`,
+
       `Event Details
 
 • Date: 22nd March 2026 
@@ -338,8 +339,9 @@ Get ready to challenge your mind and embark on the Code Quest!`,
 • Teams will work on their projects during the 12-hour hackathon.
 
 • At the end of the hackathon, teams will submit their project link and source code.
+• Winners are determined based on the quality of their solution and presentation on 22nd March 2026.
 
-• Shortlisted teams will be invited to the venue — JNTUA CEA, Department of Computer Science and Engineering — for the final presentation and winner declaration.`,
+• Winners will be invited to the venue — JNTUACEA, Department of Computer Science and Engineering — for the final presentation and winner declaration.`,
 
       `Rules
 
@@ -363,7 +365,7 @@ Get ready to challenge your mind and embark on the Code Quest!`,
 
  First Prize: ₹3499
 
-The prize money and winner certificate will be awarded on 24th at the JNTUA CEA, Department of Computer Science and Engineering.`,
+The prize money and winner certificate will be awarded on 24th at the JNTUACEA, Department of Computer Science and Engineering.`,
 
       `Certificates
 
