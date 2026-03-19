@@ -244,25 +244,25 @@ Bug Busters is a technical debugging competition conducted as part of Pixel 2K26
     date: "March 23rd, 2026",
     time: "10:00 AM - 12:30 PM",
     venue: "Computer Science Department, JNTUACEA Campus",
-    prize: " 1st Prize: ₹1000 | 2nd Prize: ₹800",
+    prize: " 1st Prize: ₹500 | 2nd Prize: ₹300",
     rules: [
         `Pre-Register: 23rd March 2026,Spot registrations are available`,
       `About the Event:
 Welcome to Code Quest – The Ultimate Technical Quiz Challenge!
 This exciting event is designed to test your knowledge in programming, computer science fundamentals, emerging technologies, logical reasoning, and general tech awareness. Participants will compete in a dynamic quiz environment that challenges both their technical knowledge and problem-solving skills. Whether you are passionate about coding, curious about technology, or love solving challenging questions, this quiz is the perfect platform to showcase your skills.`,
 
-      ` Registration Fee: ₹200
+      ` Registration Fee: ₹100
 
  Prizes:
-• 1st Prize: ₹1000
-• 2nd Prize: ₹800
+• 1st Prize: ₹500
+• 2nd Prize: ₹300
 • Certificates will be provided to participants`,
 
       `Event Challenge:
 Participants will face a set of engaging and thought-provoking questions from various technical domains. The challenge is designed to test technical knowledge, logical thinking, and quick decision-making ability in a competitive environment.`,
 
       ` How to Participate:
-1. Pay the ₹200 registration fee online
+1. Pay the ₹100 registration fee online
 2. Fill out the Google Form with the required details
 3. Join the official participants’ WhatsApp group for updates and instructions
 4. Report to the venue at least 30 minutes before the event time`,
@@ -283,6 +283,7 @@ Get ready to challenge your mind and embark on the Code Quest!`,
     coordinators: [
       "P Chandra Likhitha - 9381075626",
       "J Swapnil Raj - 7569025667",
+      "G Lakshmi Prasanna - 9949768475",
     ],
 
     icon: FaCircleQuestion,
@@ -291,13 +292,13 @@ Get ready to challenge your mind and embark on the Code Quest!`,
     registration: {
       qr: qrTechnicalQuiz,
       alerts: [
-        "Registration fee: ₹200",
+        "Registration fee: ₹100",
         "No electronic devices allowed during the quiz",
         "Must submit the payment screenshot and UTR/transaction ID",
         "If any fraud is found, registration will be cancelled and payment will not be refunded",
       ],
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLScnhju2AgGCbMW5AuHOWec-v-3U21zOkmq16eO3zaGui6DiCw/viewform?usp=header",
+        "https://docs.google.com/forms/d/e/1FAIpQLScnhju2AgGCbMW5AuHOWec-v-3U21zOkmq16eO3zaGui6DiCw/viewform?usp=publish-editor",
     },
   },
 
