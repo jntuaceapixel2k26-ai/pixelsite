@@ -514,7 +514,7 @@ Spot Registration  are available for Offline`,
     category: "non-technical",
     description:
       "Battle it out in the ultimate Free Fire showdown! Squad-based tournament with multiple rounds. Show your gaming skills and strategy to win exciting prizes.",
-    date: "March 20, 2026",
+    date: "March 22, 2026",
     time: "3:00 PM - 6:00 PM",
     venue: "Gaming Arena Online",
     prize: `SOLO MODE
@@ -569,7 +569,7 @@ Register now and aim for the BOOYAH!`,
     category: "non-technical",
     description:
       "Capture the essence of campus life, nature, or the fest itself! Submit your best photographs and let your creativity shine through the lens.",
-    date: "March 20, 2026",
+    date: "March 22, 2026",
     time: "All Day",
     venue: "Online Submission",
     prize: "Winning prize ₹500",
@@ -616,7 +616,7 @@ Register now and aim for the BOOYAH!`,
     category: "non-technical",
     description:
       "General knowledge quiz covering current affairs, sports, entertainment, history, geography, and pop culture. Fun and intellectually stimulating!",
-    date: "March 20, 2026",
+    date: "March 22, 2026",
     time: "2:00 PM - 4:00 PM",
     venue: "CSE Department, JNTUA College of Engineering Anantapur",
     prize: ` 1st Prize: ₹700 | 2nd Prize: ₹500 | Certificate is awarded`,
@@ -669,7 +669,7 @@ Register now and aim for the BOOYAH!`,
     category: "non-technical",
     description:
       "Create the funniest and most relatable memes! Topics will be given on the spot. Let your humor and creativity flow. Show your humor and win exciting prizes!",
-    date: "March 20, 2026",
+    date: "March 22, 2026",
     time: "11:00 AM - 1:00 PM",
     venue: "Online Submission",
     prize: "Winning Prize: ₹400",
@@ -737,7 +737,7 @@ Entry Fee: ₹50 (Online payment only)
     category: "non-technical",
     description:
       "An elite gathering of strategic minds, where every move shapes destiny and precision defines victory. Test your strategic thinking against the best minds. All skill levels welcome!",
-    date: "March 20, 2026",
+    date: "March 22, 2026",
     time: "10:00 AM - 5:00 PM",
     venue: "Online - Chess.com",
     prize: "Winning prize ₹700",
@@ -750,7 +750,7 @@ Entry Fee: ₹50 (Online payment only)
 
 Think fast, play smart, and prove your strategy in the ultimate chess battle!
 
- Event Date: 20th March 2026
+ Event Date: 22nd March 2026
  Event Fest: Pixel2K26
  Platform: Chess.com
  Match Format: 3+0 Blitz
@@ -795,7 +795,7 @@ Chess Arena is an exciting online chess competition organized as part of Pixel2K
     category: "non-technical",
     description:
       "Create engaging and creative Instagram-style reels about college life, the fest, or given themes. Best reels with maximum creativity win!",
-    date: "March 20, 2026",
+    date: "March 22, 2026",
     time: "Submit by 6:00 PM, March 27",
     venue: "Online Submission + JNTUA Campus",
     prize: "Winning Prize: ₹500",
@@ -849,7 +849,7 @@ Chess Arena is an exciting online chess competition organized as part of Pixel2K
     category: "non-technical",
     description:
       "Battlegrounds Mobile India tournament! Assemble your squad and compete in intense battle royale matches. Multiple rounds leading to the grand finale.",
-    date: "March 20, 2026",
+    date: "March 22, 2026",
     time: "4:00 PM - 8:00 PM",
     venue: "Gaming Arena, JNTUA Campus",
     prize: `Highest Kills (₹400) | Chicken Dinner (₹300)`,
