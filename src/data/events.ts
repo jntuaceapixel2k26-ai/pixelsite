@@ -374,7 +374,7 @@ All participants who take part in the hackathon will receive participation certi
 
  Join Pixel Hackathon 2K26 and build innovative web solutions!`,
     ],
-    coordinators: ["J Neharika - 7893153725", "S Sathwik - 9014941863"],
+    coordinators: ["J Nee harika - 7893153725", "S Sathwik - 9014941863", "N Yaswanth - 9392069527", "E Vyshnavi - 8688067754"],
     icon: FaLaptopCode,
     ruleIcon: FaShieldHalved,
     poster: posterHackathon,
