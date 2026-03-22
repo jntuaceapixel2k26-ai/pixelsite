@@ -27,7 +27,6 @@ import qrPaperPresentation from "@/assets/chethan-2.jpeg";//
 import qrCodeDebugging from "@/assets/Hrishi.png";
 import qrFastFingers from "@/assets/rakesh.jpeg";//
 import qrTechnicalQuiz from "@/assets/Chethan-1.jpeg";//
-import qrHackathon from "@/assets/chethan-2.jpeg";//
 import qrTimeLimitedCoding from "@/assets/Chethan-1.jpeg";//
 import qrPromtEvent from "@/assets/rakesh.jpeg";//
 import qrFreeFire from "@/assets/chethan-2.jpeg";//
@@ -310,85 +309,27 @@ Get ready to challenge your mind and embark on the Code Quest!`,
     category: "technical",
     description:
       "We are excited to announce a 12-Hour Hackathon designed to encourage creativity, innovation, and teamwork among developers and tech enthusiasts. Participants will work together to build innovative web solutions within a limited time frame.",
-    date: "March 21st, 2026",
+    date: "Registrations Closed",
     time: "10:00 AM - 10:00 PM",
     venue:
       "Online (with final presentations at JNTUACEA, Department of Computer Science and Engineering)",
     prize: "₹3,499",
     rules: [
       `Pixel Hackathon 2K26 is a 12-hour coding challenge where developers collaborate to build innovative web solutions. The event encourages creativity, problem-solving, and teamwork while giving participants an opportunity to showcase their technical skills`,
-      `Register: 21st March 2026`,
 
-      `Event Details
-
-• Date: 22nd March 2026 
-• Duration: 12 Hours (10:00 AM – 10:00 PM)
-• Entry Fee: ₹499 per team`,
-
-      `Team Size
-
-• Each team can have 1 to 4 members only.`,
-
-      `Hackathon Flow
-
-• Kickoff Meeting – 9:00 AM`,
-
-      `Rules and guidelines will be explained before the event begins.
-
-• Around 10 problem statements will be released 1 hour before the hackathon starts.
-
-• Teams will work on their projects during the 12-hour hackathon.
-
-• At the end of the hackathon, teams will submit their project link and source code.
-• Winners are determined based on the quality of their solution and presentation on 22nd March 2026.
-
-• Winners will be invited to the venue — JNTUACEA, Department of Computer Science and Engineering — for the final presentation and winner declaration.`,
-
-      `Rules
-
-• Projects must be original and developed during the hackathon.
-
-• Pre-built or copied projects are not allowed.
-
-• Teams must submit their source code and project link before the deadline.
-
-• Plagiarism or cheating will lead to disqualification.
-
-• Team members cannot be changed after registration.
-
-• All teams must present their project in the final round if shortlisted.
-
-• Late submissions will not be accepted.
-
-• The organizing team’s decision will be final.`,
-
-      `Prize
-
- First Prize: ₹3499
-
-The prize money and winner certificate will be awarded on 24th at the JNTUACEA, Department of Computer Science and Engineering.`,
-
-      `Certificates
-
-All participants who take part in the hackathon will receive participation certificates online.
-
- Join Pixel Hackathon 2K26 and build innovative web solutions!`,
+      `Registrations are closed now. Spot registrations are not available.`,
     ],
     coordinators: ["J Neeharika - 7893153725", "S Sathwik - 9014941863", "N Yaswanth - 9392069527", "E Vyshnavi - 8688067754"],
     icon: FaLaptopCode,
     ruleIcon: FaShieldHalved,
     poster: posterHackathon,
     registration: {
-      qr: qrHackathon,
+      qr: "",
       alerts: [
-        "Entry Fee: ₹499 per team (1-4 members)",
-        "Teams of 1-4 members",
-        "Bring laptops , chargers if possible",
-        "Must submit the payment screenshot and UTR/transaction ID",
-        "If any fraud is found, registration will be cancelled and payment will not be refunded",
+        "Registrations are closed now. Spot registrations are not available.",
       ],
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSeT_A1uPL9pUjeqYLHTKFrHuhgaTXBDWDtf_dbhTO7ONAICqw/viewform?usp=header",
+        "Registrations are closed now. Spot registrations are not available.",
     },
   },
 

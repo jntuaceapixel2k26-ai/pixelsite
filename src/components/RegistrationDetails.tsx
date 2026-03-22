@@ -28,19 +28,21 @@ const RegistrationDetails = ({
       </div>
 
       {/* Payment QR */}
-      <div className="p-4 bg-muted rounded-lg text-center border border-border">
-        <p className="text-sm font-semibold text-foreground mb-1">
-          Scan to Pay Registration Fee
-        </p>
-        <p className="text-xs text-muted-foreground mb-3">
-          Pay via UPI and fill the form below
-        </p>
-        <img
-          src={registration.qr}
-          alt={`Payment QR for ${eventTitle}`}
-          className="w-32 h-32 sm:w-40 sm:h-40 mx-auto rounded-lg border border-border object-contain"
-        />
-      </div>
+      {registration.qr.trim().length > 0 && (
+        <div className="p-4 bg-muted rounded-lg text-center border border-border">
+          <p className="text-sm font-semibold text-foreground mb-1">
+            Scan to Pay Registration Fee
+          </p>
+          <p className="text-xs text-muted-foreground mb-3">
+            Pay via UPI and fill the form below
+          </p>
+          <img
+            src={registration.qr}
+            alt={`Payment QR for ${eventTitle}`}
+            className="w-32 h-32 sm:w-40 sm:h-40 mx-auto rounded-lg border border-border object-contain"
+          />
+        </div>
+      )}
 
       {/* Google Form Link */}
       <a
