@@ -678,7 +678,7 @@ Entry Fee: ₹50 (Online payment only)
     category: "non-technical",
     description:
       "An elite gathering of strategic minds, where every move shapes destiny and precision defines victory. Test your strategic thinking against the best minds. All skill levels welcome!",
-    date: "March 22, 2026",
+    date: "Registrations Closed",
     time: "10:00 AM - 5:00 PM",
     venue: "Online - Chess.com",
     prize: "Winning prize ₹700",
@@ -687,44 +687,18 @@ Entry Fee: ₹50 (Online payment only)
       `G Lakshmi Prasanna - 9949768475`,
     ],
     rules: [
-      ` CHESS ARENA 2k26
-
-Think fast, play smart, and prove your strategy in the ultimate chess battle!
-
- Event Date: 22nd March 2026
- Event Fest: Pixel2K26
- Platform: Chess.com
- Match Format: 3+0 Blitz
- Entry Fee: ₹100
- Grand Prize: ₹700`,
-
-      ` About the Event:
-Chess Arena is an exciting online chess competition organized as part of Pixel2K26, specially designed for players who are ready to test their skills, speed, and strategy. Compete against talented participants, make every move count, and fight your way to victory in this thrilling 3-minute chess format.`,
-      ` Why Participate?
-• Show your chess talent and strategic thinking
-• Compete with other passionate players
-• Experience the thrill of fast-paced online matches
-• Win exciting prize money and recognition`,
-
-      ` Game Details:
-• Matches will be conducted on the Chess.com app
-• Each game will follow a 3-minute time control
-• Participants must join on time and be ready to play
-• Fair play is strictly expected from all players`,
+      `Registrations are closed.`,
     ],
     icon: FaChessKnight,
     ruleIcon: FaGavel,
     poster: posterChess,
     registration: {
-      qr: qrChess,
+      qr: "",
       alerts: [
-        "Registration fee: ₹100 per participant",
-        "Individual participation only",
-        "Must submit the payment screenshot and UTR/transaction ID",
-        "If any fraud is found, registration will be cancelled and payment will not be refunded",
+        "Registrations are closed.",
       ],
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdMSEbOXyz-izNuL-9gWZPPsKDzBSMwI_JrzjQ3e_yZev2l-Q/viewform?usp=header",
+        "Registrations are closed.",
     },
   },
 
