@@ -455,7 +455,7 @@ Spot Registration  are available for Offline`,
     category: "non-technical",
     description:
       "Battle it out in the ultimate Free Fire showdown! Squad-based tournament with multiple rounds. Show your gaming skills and strategy to win exciting prizes.",
-    date: "March 22, 2026",
+    date: "Registrations were closed",
     time: "3:00 PM - 6:00 PM",
     venue: "Gaming Arena Online",
     prize: `SOLO MODE
@@ -466,39 +466,19 @@ SQUAD MODE
 Winner Prize: ₹800
 Runner-Up Prize: ₹400`,
     rules: [
-      `We are conducting matches in two gameplay modes in Garena Free Fire:
-
-SOLO MODE
-Entry Fee: ₹50 per player
-Winner Prize: ₹300
-Highest Kills Prize: ₹200`,
-      `SQUAD MODE
-Entry Fee: ₹160 per team (2-4 players allowed)
-Winner Prize: ₹800
-Runner-Up Prize: ₹400
-Prize pool may increase if more teams register.`,
-
-      `Important Notes:
-- All participants must follow fair play rules (no hacks, cheats, or emulators if restricted).
-- Match details, room ID, and password will be shared with registered players before the event.
-- The organizers' decision will be final in case of disputes.`,
-
-      `Gather your squad or fight solo and prove you have what it takes to dominate Pixel Warzone!
-Register now and aim for the BOOYAH!`,
+      `Registrations were closed.`,
     ],
     coordinators: ["S Apsar - 9959791329", "N Karthik - 9014088846"],
     icon: FaFire,
     ruleIcon: FaShieldHalved,
     poster: posterFreeFire,
     registration: {
-      qr: qrFreeFire,
+      qr: "",
       alerts: [
-        "Entry fee: Team ₹160 per team (2-4 players), Solo Mode ₹50 per player",
-        "Must submit the payment screenshot and UTR/transaction ID",
-        "If any fraud is found, registration will be cancelled and payment will not be refunded",
+        "Registrations were closed.",
       ],
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLScxr6_oI9_C6QBlLsryELIl_eYGJA1NfgkJasGxAlBo2rUiHQ/viewform?usp=header",
+        "Registrations were closed.",
     },
   },
 
@@ -557,7 +537,7 @@ Register now and aim for the BOOYAH!`,
     category: "non-technical",
     description:
       "General knowledge quiz covering current affairs, sports, entertainment, history, geography, and pop culture. Fun and intellectually stimulating!",
-    date: "March 22, 2026",
+    date: "March 23, 2026 | Spot Registrations Available",
     time: "2:00 PM - 4:00 PM",
     venue: "CSE Department, JNTUA College of Engineering Anantapur",
     prize: ` 1st Prize: ₹700 | 2nd Prize: ₹500 | Certificate is awarded`,
@@ -764,35 +744,24 @@ Entry Fee: ₹50 (Online payment only)
     category: "non-technical",
     description:
       "Battlegrounds Mobile India tournament! Assemble your squad and compete in intense battle royale matches. Multiple rounds leading to the grand finale.",
-    date: "March 22, 2026",
+    date: "Registrations were closed",
     time: "4:00 PM - 8:00 PM",
-    venue: "Gaming Arena, JNTUA Campus",
+    venue: "",
     prize: `Highest Kills (₹400) | Chicken Dinner (₹300)`,
     rules: [
-      ` Get ready for an intense Battlegrounds Mobile India (BGMI) Tournament as part of PixelStack 2K26! Compete with the best players, showcase your gaming skills, and fight for exciting cash prizes.`,
-      ` Registration Open Now
-       Prize Pool:
-      • Highest Kills – ₹400
-      • Chicken Dinner – ₹300
-       Entry Fee:
-      • Squad Entry – ₹150
-      • Solo Entry – ₹40`,
-      "Emulators and triggers not allowed",
+       "Registrations were closed.",
     ],
     coordinators: ["Rakesh - 9014142283", "Rana Sadiq - 939854848"],
     icon: FaGamepad,
     ruleIcon: FaShieldHalved,
     poster: posterBgmi,
     registration: {
-      qr: qrBgmi,
+      qr: "",
       alerts: [
-        "Emulators and triggers are strictly not allowed",
-        "Entry fee: Team ₹150 per team, Solo Mode ₹40 per player",
-        "Must submit the payment screenshot and UTR/transaction ID",
-        "If any fraud is found, registration will be cancelled and payment will not be refunded",
+        "Registrations were closed.",
       ],
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSd5UoqKXB1GPcyU_o8bs7Re3E-FNglHSBfffJ1bDsdU7cRmQg/viewform?usp=header",
+        "Registrations were closed.",
     },
   },
 ];
