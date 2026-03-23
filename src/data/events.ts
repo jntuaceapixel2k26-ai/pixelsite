@@ -490,7 +490,7 @@ Runner-Up Prize: ₹400`,
     category: "non-technical",
     description:
       "Capture the essence of campus life, nature, or the fest itself! Submit your best photographs and let your creativity shine through the lens.",
-    date: "March 22, 2026",
+    date: "Registrations Closed",
     time: "All Day",
     venue: "Online Submission",
     prize: "Winning prize ₹500",
@@ -499,33 +499,18 @@ Runner-Up Prize: ₹400`,
       "C Shama Afreen - 9045620202",
     ],
     rules: [
-      `How to Participate:
-1) Pay the registration fee ₹49 online
-2) Upload your photo to Google Drive or jpeg format
-3) Send us the Drive link with your name
-4) Provide your contact number and email ID
-5) We will post your photo on our Instagram page with your name
-6) The photo with the most likes wins!`,
-      `Rules:
-- Only one photo per participant
-- Photo must be original
-- Participants must provide valid contact details and email
-- Mod/fake/bot accounts are strictly prohibited
-- If fake likes or mod accounts are detected, the entry will be disqualified
-- Last date for submission is 20th`,
+      `Registrations were closed.`,
     ],
     icon: FaCamera,
     ruleIcon: FaCircleInfo,
     poster: posterPhotography,
     registration: {
-      qr: qrPhotography,
+      qr: "",
       alerts: [
-        "Registration fee: ₹49 per participant",
-        "Must submit the payment screenshot and UTR/transaction ID",
-        "If any fraud is found, registration will be cancelled and payment will not be refunded",
+        "Registrations were closed.",
       ],
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdRbLJMEx3FSMzP2K_D8RyNw-QCUKkLYR5TO-yf_djmjiemNQ/viewform?usp=header",
+        "Registrations were closed.",
     },
   },
 
@@ -590,7 +575,7 @@ Runner-Up Prize: ₹400`,
     category: "non-technical",
     description:
       "Create the funniest and most relatable memes! Topics will be given on the spot. Let your humor and creativity flow. Show your humor and win exciting prizes!",
-    date: "March 22, 2026",
+    date: "Registrations were Closed",
     time: "11:00 AM - 1:00 PM",
     venue: "Online Submission",
     prize: "Winning Prize: ₹400",
@@ -601,52 +586,18 @@ Runner-Up Prize: ₹400`,
       "V Sai Rishi kumar - 9390455681 \n",
     ],
     rules: [
-      `Think you are the meme lord of your college?   
-Show your creativity and make everyone laugh!
-
- Last Date to Register & Submit Meme: 20th March 2026
-
- Result Announcement: 23rd March 2026 
-
- Winner Selection: Based on the highest number of likes on our Instagram post & Judges 
-
-Entry Fee: ₹50 (Online payment only) 
-
- Winning Prize: ₹400`,
-
-      ` How to Participate:
-1 Pay the registration fee ₹50 online 
-2 Fill out the official Registration Google Form and upload your meme
-3 Join the official participants' WhatsApp group using the link provided at the end of the form
-4 Fill out the secondary Google form in the group to provide your Instagram handle 
-5 We will post your meme on our Instagram page with your name
-6 The meme with the most likes wins! & Judges`,
-
-      ` Rules:
-
-• Only one meme per participant or team 
-• Meme must be original and related to technology, coding, or college life
-• Offensive, abusive, or plagiarized content is strictly prohibited 
-• Mod / fake / bot accounts are strictly prohibited 
-• If fake likes or bot accounts are detected, the entry will be disqualified 
-• Last date for submission is 20th March 2026
-
- Participate now and showcase your meme-making skills!`,
+      `Registrations were Closed.`,
     ],
     icon: FaFaceLaughBeam,
     ruleIcon: FaTriangleExclamation,
     poster: posterMeme,
     registration: {
-      qr: qrMemeCompetition,
+      qr: "",
       alerts: [
-        "Registration fee: ₹50 per participant",
-        "Topics will be revealed on the spot",
-        "No offensive or inappropriate content allowed",
-        "Must submit the payment screenshot and UTR/transaction ID",
-        "If any fraud is found, registration will be cancelled and payment will not be refunded",
+        "Registrations were Closed.",
       ],
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdcITwq53TbchOuEYRI9Ky1McOI1xozc2ZKYrmljccGlN3xew/viewform?usp=header",
+        "Registrations were Closed.",
     },
   },
 
@@ -690,7 +641,7 @@ Entry Fee: ₹50 (Online payment only)
     category: "non-technical",
     description:
       "Create engaging and creative Instagram-style reels about college life, the fest, or given themes. Best reels with maximum creativity win!",
-    date: "March 22, 2026",
+    date: "March 23, 2026",
     time: "Submit by 6:00 PM, March 27",
     venue: "Online Submission + JNTUA Campus",
     prize: "Winning Prize: ₹500",
